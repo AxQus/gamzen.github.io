@@ -1,3 +1,39 @@
-.build {
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    font-family: montserrat, sans-serif;
+    background-image: linear-gradient(to bottom right, #0f6299, #575a5a);
+}
+
+.build {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 100px;
+  
+    animation: slidedown 1s ease-out 0.5s forwards;
+    transform: translateY(-200px);
+    opacity: 0;
+}
+  
+@keyframes slidedown {
+    0% {
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
