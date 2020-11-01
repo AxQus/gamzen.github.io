@@ -1,39 +1,103 @@
-body{
+* {
   margin: 0;
   padding: 0;
-  font-family: "montserrat",sans-serif;
-  min-height: 100vh;
-  background-image: linear-gradient(125deg,#6a89cc,#b8e994);
+  box-sizing: border-box;
 }
 
-.container{
-  width: 100%;
+body {
+  font-family: montserrat, sans-serif;
+  background-image: linear-gradient(to bottom right, #CC2E5D, #FF5858);
+}
+
+.page-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-  color: #343434
-}
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 
-.container h1{
-  font-size: 160px;
-  margin: 0;
+  color: #FFF;
+  font-size: 320px;
   font-weight: 900;
-  letter-spacing: 20px;
+
+  animation: fadein 0.8s ease-out 1.5s forwards;
+  opacity: 0;
 }
 
-.container a{
-  text-decoration: none;
-  background: #e55039aa;
-  color: #fff;
-  padding: 12px 24px;
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 100px;
+
+  animation: slidedown 1s ease-out 0.5s forwards;
+  transform: translateY(-200px);
+  opacity: 0;
+}
+
+@keyframes slidedown {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.button {
   display: inline-block;
-  border-radius: 25px;
-  font-size: 14px;
-  text-transform: uppercase;
-  transition: 0.4s;
+  padding: 20px 40px;
+  background-color: #FFF;
+  color: #222;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: none;
+  border-radius: 999px;
+  font-size: 28px;
+  transition: 0.4s ease-out;
+
+  animation: slideup 1s ease-out 0.5s forwards;
+  transform: translateY(200px);
+  opacity: 0;
 }
 
-.container a:hover{
-  background: #e55039;
+@keyframes slideup {
+  0% {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.button:hover {
+  color: #FF5858;
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.3);
 }
