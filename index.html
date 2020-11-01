@@ -34,6 +34,7 @@
 
 
                <!-- Style !-->
+               <style>
                * {
                     margin: 0;
                     padding: 0;
@@ -72,11 +73,37 @@
                       transform: translateY(0px);
                       opacity: 1;
                     }
-                  }
+                }
+                
+                h1 {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: -1;
+                  
+                    color: #FFF;
+                    font-size: 320px;
+                    font-weight: 900;
+                  
+                    animation: fadein 0.8s ease-out 1.5s forwards;
+                    opacity: 0;
+                }
+                
+                @keyframes fadein {
+                    0% {
+                      opacity: 0;
+                    }
+                    100% {
+                      opacity: 0.2;
+                    }
+                }
+               </style>
      </head>
      <body>
           <div class="build">
                <h2>TRWA BUDOWA</h2>
+               <h1>MOŻLIE JEST WSPARCIE</h1>
           </div>
      </body>
 </html>
