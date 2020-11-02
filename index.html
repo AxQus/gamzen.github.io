@@ -35,104 +35,127 @@
 
                <!-- Style !-->
                <style>
-                    * {
-                         margin: 0;
-                         padding: 0;
-                         box-sizing: border-box;
-                     }
-                     
-                     body {
-                         font-family: montserrat, sans-serif;
-                         background-image: linear-gradient(to bottom right, #0f6299, #575a5a);
-                     }
-                     
-                     .build {
-                         position: relative;
-                         display: flex;
-                         align-items: center;
-                         justify-content: center;
-                         min-height: 100vh;
-                     }
-                     
-                     .content {
-                         display: flex;
-                         flex-direction: column;
-                         align-items: center;
-                     }
-                     
-                     .content2 {
-                         display: flex;
-                         flex-direction: column;
-                         align-items: center;
-                     }
-                     
-                     h2 {
-                         color: #FFF;
-                         font-size: 48px;
-                         font-weight: 700;
-                         margin-bottom: 100px;
-                       
-                         animation: slidedown 1s ease-out 0.5s forwards;
-                         transform: translateY(-200px);
-                         opacity: 0;
-                     }
-                       
-                     @keyframes slidedown {
-                         0% {
-                           transform: translateY(-200px);
-                           opacity: 0;
-                         }
-                         100% {
-                           transform: translateY(0px);
-                           opacity: 1;
-                         }
-                     }
-                     
-                     .button {
-                         display: inline-block;
-                         padding: 20px 40px;
-                         background-color: #FFF;
-                         color: #222;
-                         font-weight: 700;
-                         font-style: italic;
-                         text-decoration: none;
-                         border-radius: 999px;
-                         font-size: 28px;
-                         transition: 0.4s ease-out;
-                       
-                         animation: slideup 1s ease-out 0.5s forwards;
-                         transform: translateY(200px);
-                         opacity: 0;
-                     }
-                       
-                     @keyframes slideup {
-                         0% {
-                           transform: translateY(200px);
-                           opacity: 0;
-                         }
-                         100% {
-                           transform: translateY(0px);
-                           opacity: 1;
-                         }
-                     }
-                       
-                     .button:hover {
-                         color: #FF5858;
-                         box-shadow: 6px 6px rgba(0, 0, 0, 0.3);
-                     }
-                     
-                      
-               </style>
-     </head>
-     <body>
-          <div class="build">
-               <div class="content">
-                    <h2>STRONA W TRAKCIE BUDOWY</h2>
-                    <a href="https://gamzen.tk/money" class="button">STRONA MONEY</a>
-                    <div class="content2">
-                         <a href="https://tipply.pl/u/axqus" class="button">TIPPLY</a>
-                    </div>
-               </div>
-          </div>
-     </body>
+                html, body{
+                    margin: 0;
+                    padding: 0;
+                    max-height: 100vh;
+                    background-image: linear-gradient(to bottom right, #0f6299, #393f3f);
+                    background-position: center;
+                    background-size: cover;
+                    position: relative;
+                    font-family: 'Roboto', Kristen ITC;
+                }
+                .content{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    text-align: center;
+                    transform: translate(-50%, -60%);
+                }
+                hr{
+                    margin: auto;
+                    width: 80%;
+                    border: 1.5px solid aqua;
+                }
+                h1{
+                    font-size: 40px;
+                    letter-spacing: 30px;
+                    font-weight: 100;
+                    color: rgb(247, 247, 247);
+                }
+                p{
+                    font-size: 60px;
+                    color: #fff;
+                    font-weight: 500;
+                    word-spacing: 20px;
+                }
+        
+                .button {
+                  display: inline-block;
+                  padding: 20px 40px;
+                  background-color: #FFF;
+                  color: #222;
+                  font-weight: 700;
+                  font-style: italic;
+                  text-decoration: none;
+                  border-radius: 999px;
+                  font-size: 28px;
+                  transition: 0.4s ease-out;
+                            
+                  animation: slideup 1s ease-out 0.5s forwards;
+                  transform: translateY(200px);
+                  opacity: 0;
+                }
+                @keyframes slideup {
+                  0% {
+                    transform: translateY(200px);
+                    opacity: 0;
+                    }
+                    100% {
+                      transform: translateY(0px);
+                      opacity: 1;
+                  }
+                   }
+                               
+                .button:hover {
+                  color: #FF5858;
+                  box-shadow: 6px 6px rgba(0, 0, 0, 0.3);
+                  }
+        
+                .tipply {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  transform: translateY(200px);
+                }
+                .money {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  transform: translateY(200px);
+                  margin: 20px;
+                  margin-left: 20px;
+                }
+                .build{
+                  position: relative;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  min-height: 100vh;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="content">
+                <h1>COMING SOON</h1>
+                <hr>
+                <p id="demo"></p>
+            </div>
+        
+            <div class="build">
+              <div class="money">
+                <a href="https://gamzen.tk/money" class="button">STRONA MONEY</a>
+              </div>
+        
+              <div class="tipply">
+                <a href="https://tipply.pl/u/axqus" class="button">TIPPLY</a>
+              </div>
+            </div>
+        </body>
+        <script>
+            var countDownDate = new Date("Nov 1, 2021 12:00:00").getTime();
+            var countDown = setInterval(function(){
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 *60));
+                var minutes = Math.floor((distance % (1000 * 60 *60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                if(distance < 0){
+                    clearInterval(countDown);
+                    document.getElementById("demo").innerHTML = "ALE STRONA";
+                }
+            }, 1000);
+        </script>
 </html>
