@@ -8,7 +8,7 @@ html {
 
 body {
     background-image: linear-gradient(to bottom right, #0f6299, #393f3f);
-    height: 170vh;
+    height: 175vh;
 }
 
 
@@ -75,7 +75,7 @@ body {
 
 .mainp, .maina {
     text-align: center;
-    font-size: 13px;
+    font-size: 20px;
     position: relative;
     letter-spacing: 10px;
     color: #fff;
