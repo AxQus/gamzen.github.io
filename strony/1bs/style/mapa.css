@@ -1,0 +1,82 @@
+/*-------------------------------------------------------------------------------
+  Ogólne
+-------------------------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+html {
+  box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #0f6299, #393f3f);
+    height: 170vh;
+}
+
+
+/*-------------------------------------------------------------------------------
+  Footer
+-------------------------------------------------------------------------------*/
+.footer {
+  text-align: center;
+    background-image: rgba(253, 245, 245, 0);
+    top: 0;
+    margin: 10;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.footer p {
+    color: black;
+    font-size:18px;
+    line-height:14px;
+}
+.footer a {
+    color: #fff;
+}
+.footer a:hover {
+    color: black;
+}
+.footer .footer-share {
+    margin: 0 0 10px 0;
+}
+.footer .footer-share li {
+    display: inline-block;
+    float: none;
+}
+.footer .footer-share a {
+    border: none;
+    font-size: 17px;
+    letter-spacing:20px;
+    color: #fff;
+}
+.footer .fa-heart {
+    color: #e84545;
+    font-size: 11px;
+    margin: 0 2px;
+}
+
+
+/*-------------------------------------------------------------------------------
+  Map .fixpanel
+-------------------------------------------------------------------------------*/
+.fixpanel {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 155vh;
+}
+
+/*-------------------------------------------------------------------------------
+  Main Back
+-------------------------------------------------------------------------------*/
+
+.mainp, .maina {
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    letter-spacing: 10px;
+    color: #fff;
+}
