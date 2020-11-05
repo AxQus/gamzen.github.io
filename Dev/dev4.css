@@ -1,0 +1,2735 @@
+.ReserveBonus_base--2WtV9 {
+  display: flex;
+  margin: 0 -20px; }
+  .ReserveBonus_base__toolbar--NQdl8, .ReserveBonus_base__tooltip--1yOGm {
+    margin-right: -16px;
+    margin-left: -16px; }
+  .ReserveBonus_base__tooltip--1yOGm {
+    margin-bottom: -6px; }
+
+.ReserveBonus_bonus--2j8Oa {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  max-width: 50%;
+  margin: 0;
+  padding: 0 20px; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .ReserveBonus_base__default--2Qag5 .ReserveBonus_bonus--2j8Oa {
+      display: flex; } }
+  .ReserveBonus_base__default--2Qag5.ReserveBonus_base__onlyChild--26KO- .ReserveBonus_bonus--2j8Oa {
+    display: flex; }
+  .ReserveBonus_base__tooltip--1yOGm .ReserveBonus_bonus--2j8Oa,
+  .ReserveBonus_base__toolbar--NQdl8 .ReserveBonus_bonus--2j8Oa {
+    display: flex;
+    padding: 0 16px; }
+  .ReserveBonus_base__onlyChild--26KO- .ReserveBonus_bonus--2j8Oa {
+    width: 100%;
+    max-width: 100%; }
+  .ReserveBonus_bonus--2j8Oa:not(:first-child)::before {
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    border-left: 1px solid rgba(0, 0, 0, 0.65);
+    background-color: rgba(229, 229, 207, 0.15);
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.4)), color-stop(0.5, black), color-stop(1, rgba(0, 0, 0, 0.4)));
+            mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.4)), color-stop(0.5, black), color-stop(1, rgba(0, 0, 0, 0.4)));
+    position: absolute;
+    top: 0;
+    left: -1px;
+    content: ''; }
+
+.ReserveBonus_value--2H7Cz {
+  display: inline;
+  color: #fefeec;
+  font-size: 22px;
+  line-height: 1; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .ReserveBonus_base__default--2Qag5 .ReserveBonus_value--2H7Cz {
+      display: inline-block;
+      margin-right: 2px;
+      line-height: 44px;
+      text-shadow: 0 1px 6px rgba(0, 0, 0, 0.8);
+      vertical-align: top; } }
+  .ReserveBonus_base__onlyChild--26KO- .ReserveBonus_value--2H7Cz,
+  .ReserveBonus_base__toolbar--NQdl8 .ReserveBonus_value--2H7Cz {
+    display: inline-block;
+    margin-right: 2px;
+    line-height: 44px;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.8);
+    vertical-align: top; }
+  .ReserveBonus_base__tooltip--1yOGm .ReserveBonus_value--2H7Cz,
+  .ReserveBonus_base__tooltip--1yOGm.ReserveBonus_base__onlyChild--26KO- .ReserveBonus_value--2H7Cz {
+    line-height: 30px; }
+  .ReserveBonus_base__default--2Qag5 .ReserveBonus_value__glow--2zzCH,
+  .ReserveBonus_base__onlyChild--26KO- .ReserveBonus_value__glow--2zzCH,
+  .ReserveBonus_base__toolbar--NQdl8 .ReserveBonus_value__glow--2zzCH {
+    color: #cf6;
+    text-shadow: 0 0 3px rgba(34, 102, 0, 0.8), 0 0 3px rgba(34, 102, 0, 0.8), 0 0 26px rgba(34, 102, 0, 0.7), 0 0 32px rgba(34, 102, 0, 0.5), 0 0 7px rgba(128, 255, 0, 0.6); }
+
+.ReserveBonus_sign--1XJne,
+.ReserveBonus_percent--U5caq {
+  display: inline; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .ReserveBonus_sign--1XJne,
+    .ReserveBonus_percent--U5caq {
+      font-size: 28px;
+      vertical-align: top; } }
+  .ReserveBonus_base__onlyChild--26KO- .ReserveBonus_sign--1XJne,
+  .ReserveBonus_base__toolbar--NQdl8 .ReserveBonus_sign--1XJne,
+  .ReserveBonus_base__tooltip--1yOGm .ReserveBonus_sign--1XJne, .ReserveBonus_base__onlyChild--26KO-
+  .ReserveBonus_percent--U5caq,
+  .ReserveBonus_base__toolbar--NQdl8
+  .ReserveBonus_percent--U5caq,
+  .ReserveBonus_base__tooltip--1yOGm
+  .ReserveBonus_percent--U5caq {
+    font-size: 20px;
+    vertical-align: top; }
+
+.ReserveBonus_number--1-Qh1 {
+  display: inline; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .ReserveBonus_base__default--2Qag5 .ReserveBonus_number--1-Qh1 {
+      font-size: 40px; } }
+  .ReserveBonus_base__onlyChild--26KO- .ReserveBonus_number--1-Qh1,
+  .ReserveBonus_base__toolbar--NQdl8 .ReserveBonus_number--1-Qh1 {
+    font-size: 40px; }
+  .ReserveBonus_base__tooltip--1yOGm .ReserveBonus_number--1-Qh1,
+  .ReserveBonus_base__tooltip--1yOGm.ReserveBonus_base__onlyChild--26KO- .ReserveBonus_number--1-Qh1 {
+    font-size: 30px; }
+
+.ReserveBonus_target--xTTXr {
+  display: inline;
+  color: #fefeec;
+  font-size: 22px;
+  line-height: 22px;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.8); }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .ReserveBonus_target--xTTXr {
+      font-size: 18px; } }
+  .ReserveBonus_base__toolbar--NQdl8 .ReserveBonus_target--xTTXr,
+  .ReserveBonus_base__onlyChild--26KO- .ReserveBonus_target--xTTXr {
+    font-size: 18px; }
+  .ReserveBonus_base__tooltip--1yOGm .ReserveBonus_target--xTTXr,
+  .ReserveBonus_base__tooltip--1yOGm.ReserveBonus_base__onlyChild--26KO- .ReserveBonus_target--xTTXr {
+    font-size: 14px;
+    line-height: 1; }
+  .ReserveBonus_target__glow--1O19l {
+    color: #cf6;
+    text-shadow: 0 0 3px rgba(34, 102, 0, 0.8), 0 0 3px rgba(34, 102, 0, 0.8), 0 0 26px rgba(34, 102, 0, 0.7), 0 0 32px rgba(34, 102, 0, 0.5), 0 0 7px rgba(128, 255, 0, 0.6); }
+
+.ReserveBonus_description--yvThQ {
+  display: inline;
+  line-height: 16px; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .ReserveBonus_description--yvThQ {
+      display: inline-block;
+      vertical-align: top; } }
+  .ReserveBonus_base__onlyChild--26KO- .ReserveBonus_description--yvThQ,
+  .ReserveBonus_base__toolbar--NQdl8 .ReserveBonus_description--yvThQ,
+  .ReserveBonus_description--yvThQ .ReserveBonus_base__tooltip--1yOGm {
+    display: inline-block;
+    vertical-align: top; }
+  .ReserveBonus_base__tooltip--1yOGm .ReserveBonus_description--yvThQ,
+  .ReserveBonus_base__tooltip--1yOGm.ReserveBonus_base__onlyChild--26KO- .ReserveBonus_description--yvThQ {
+    margin-top: -3px; }
+
+.ReserveBonus_duration__glow--1urc4 {
+  color: #cf6;
+  text-shadow: 0 0 3px rgba(34, 102, 0, 0.8), 0 0 3px rgba(34, 102, 0, 0.8), 0 0 26px rgba(34, 102, 0, 0.7), 0 0 32px rgba(34, 102, 0, 0.5), 0 0 7px rgba(128, 255, 0, 0.6); }
+
+.ReserveBonus_resultType__glow--yJcfn {
+  color: #cf6;
+  text-shadow: 0 0 3px rgba(34, 102, 0, 0.8), 0 0 3px rgba(34, 102, 0, 0.8), 0 0 26px rgba(34, 102, 0, 0.7), 0 0 32px rgba(34, 102, 0, 0.5), 0 0 7px rgba(128, 255, 0, 0.6); }
+.BuildingTooltip_root--1ry1Z {
+  position: absolute;
+  z-index: 10000;
+  padding: 16px;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none; }
+
+.BuildingTooltip_root__show--5YO7D {
+  visibility: visible;
+  opacity: 1; }
+
+.BuildingTooltip_body--h4iYS {
+  position: relative;
+  border: 1px solid #3d3b31;
+  border-radius: 2px;
+  box-shadow: 0 0 8px #000;
+  background: #070705; }
+
+.BuildingTooltip_wrapper--1mgLY {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  overflow: hidden;
+  border-width: 3px;
+  border-style: solid;
+  border-image: url(/static/images/bg-borders.bdeccf6d.png) 3 round round;
+  box-shadow: none;
+  background: linear-gradient(to top, rgba(201, 201, 182, 0.05), rgba(201, 201, 182, 0) 9%, rgba(201, 201, 182, 0) 89%, rgba(201, 201, 182, 0.05)); }
+
+.BuildingTooltip_content--1AuY4 {
+  position: relative;
+  z-index: 20; }
+
+.BuildingTooltip_title--36wz_ {
+  margin: 0 0 15px;
+  color: #e9e2bf;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 17px; }
+
+.BuildingTooltip_subtitle--1C7uo {
+  margin: 12px 0 6px;
+  color: #e9e2bf;
+  font-size: 15px;
+  font-weight: 700; }
+  .BuildingTooltip_subtitle--1C7uo:first-child {
+    margin-top: 0; }
+
+.BuildingTooltip_message--d3d6y, .BuildingTooltip_warning--1t-5F {
+  margin: 7px 0;
+  color: #8c8c7c;
+  font: 400 14px/18px "Roboto Condensed", sans-serif; }
+  .BuildingTooltip_message--d3d6y:first-child, .BuildingTooltip_warning--1t-5F:first-child {
+    margin-top: 0; }
+  .BuildingTooltip_message--d3d6y:last-child, .BuildingTooltip_warning--1t-5F:last-child {
+    margin-bottom: 0; }
+
+.BuildingTooltip_warning--1t-5F {
+  color: #ee7000; }
+
+.BuildingTooltip_divider--2_w2p {
+  position: relative;
+  z-index: 5;
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 15px 0;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABCAYAAAAb4BS0AAAAD0lEQVQImWPwcbeZwQAFAA5aAWhFs7YXAAAAAElFTkSuQmCC);
+  -webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0, 0, 0, 0)), color-stop(0.1, rgba(0, 0, 0, 0.1)), color-stop(0.25, rgba(0, 0, 0, 0.4)), color-stop(0.5, black), color-stop(0.75, rgba(0, 0, 0, 0.4)), color-stop(0.9, rgba(0, 0, 0, 0.1)), color-stop(1, rgba(0, 0, 0, 0)));
+          mask-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0, 0, 0, 0)), color-stop(0.1, rgba(0, 0, 0, 0.1)), color-stop(0.25, rgba(0, 0, 0, 0.4)), color-stop(0.5, black), color-stop(0.75, rgba(0, 0, 0, 0.4)), color-stop(0.9, rgba(0, 0, 0, 0.1)), color-stop(1, rgba(0, 0, 0, 0))); }
+
+.BuildingTooltip_highlight--2ABn4 {
+  color: #fefeec; }
+
+.BuildingTooltip_ribbon--3t9x2 {
+  position: relative;
+  margin: 19px -20px;
+  padding: 14px 20px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(255, 255, 255, 0.01)), color-stop(0.1, rgba(255, 255, 255, 0.02)), color-stop(0.25, rgba(255, 255, 255, 0.04)), color-stop(0.5, rgba(255, 255, 255, 0.06)), color-stop(0.75, rgba(255, 255, 255, 0.04)), color-stop(0.9, rgba(255, 255, 255, 0.02)), color-stop(1, rgba(255, 255, 255, 0.01)));
+  text-align: left; }
+  .BuildingTooltip_ribbon--3t9x2::before, .BuildingTooltip_ribbon--3t9x2::after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABCAYAAAAb4BS0AAAAD0lEQVQImWPwcbeZwQAFAA5aAWhFs7YXAAAAAElFTkSuQmCC);
+    content: '';
+    -webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0, 0, 0, 0)), color-stop(0.1, rgba(0, 0, 0, 0.1)), color-stop(0.25, rgba(0, 0, 0, 0.4)), color-stop(0.5, black), color-stop(0.75, rgba(0, 0, 0, 0.4)), color-stop(0.9, rgba(0, 0, 0, 0.1)), color-stop(1, rgba(0, 0, 0, 0)));
+            mask-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0, 0, 0, 0)), color-stop(0.1, rgba(0, 0, 0, 0.1)), color-stop(0.25, rgba(0, 0, 0, 0.4)), color-stop(0.5, black), color-stop(0.75, rgba(0, 0, 0, 0.4)), color-stop(0.9, rgba(0, 0, 0, 0.1)), color-stop(1, rgba(0, 0, 0, 0))); }
+  .BuildingTooltip_ribbon--3t9x2::before {
+    top: -1px; }
+  .BuildingTooltip_ribbon--3t9x2::after {
+    bottom: -1px; }
+
+.BuildingTooltip_statusMessage--4oCd6 {
+  margin: 15px 0 0; }
+
+.BuildingTooltip_statusMessage__positive--wHZ8i, .BuildingTooltip_statusMessage__positive--wHZ8i .BuildingTooltip_status--1GsCl {
+  text-align: center; }
+
+.BuildingTooltip_statusMessage__negative--245hb .BuildingTooltip_status--1GsCl {
+  text-align: left; }
+
+.BuildingTooltip_statusMessage__noPermission--UuG8j {
+  position: relative;
+  z-index: 4;
+  margin: -1px -20px 0;
+  padding: 16px 20px 0;
+  background: url(/static/images/disable-background.42ef1f71.png) no-repeat 0 0; }
+
+.BuildingTooltip_divider--2_w2p + .BuildingTooltip_statusMessage__noPermission--UuG8j {
+  margin-top: -16px; }
+
+.BuildingTooltip_status--1GsCl {
+  margin: 0;
+  color: #f5f0e5;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center; }
+
+.BuildingTooltip_statusMessage__positive--wHZ8i .BuildingTooltip_status--1GsCl, .BuildingTooltip_status__positive--3Z6n5 {
+  color: #7ab300; }
+
+.BuildingTooltip_statusMessage__negative--245hb .BuildingTooltip_status--1GsCl, .BuildingTooltip_status__negative--1kUaB {
+  color: #ff2717; }
+
+.BuildingTooltip_statusText--YGR6l {
+  margin: 5px 0 0;
+  color: #595950;
+  font-size: 14px;
+  font-weight: 400; }
+
+.BuildingTooltip_statusMessage__noPermission--UuG8j .BuildingTooltip_statusText--YGR6l {
+  color: #686656; }
+
+.BuildingTooltip_base--39xWE {
+  width: 360px; }
+  .BuildingTooltip_base__type-economics--2oZYZ {
+    width: 280px; }
+  .BuildingTooltip_base__type-economics-double--xhF-c {
+    width: 440px; }
+  .BuildingTooltip_base__type-battle--1Vv9- {
+    width: 360px; }
+
+.BuildingTooltip_reserveInfo--3TMUl {
+  margin: 12px 0 0;
+  color: #797a69; }
+
+.BuildingTooltip_reserve--1k4Za {
+  display: flex; }
+
+.BuildingTooltip_reserveTitle--3dRjJ {
+  margin: 20px 0 7px;
+  color: #fcf2c3;
+  font-size: 16px; }
+
+.BuildingTooltip_reserveLevel--3l3id {
+  margin: 0 0 10px;
+  color: #8c8c7c;
+  line-height: 10px; }
+
+.BuildingTooltip_reserveLevelValue--2mxi3 {
+  color: #fcf2c3; }
+
+.BuildingTooltip_button--doBkS {
+  flex: 0 0 88px;
+  width: 88px;
+  height: 88px;
+  margin: 0 10px 0 0; }
+
+.BuildingTooltip_thumbnail--2oiDP {
+  position: relative;
+  z-index: 0;
+  width: 100%; }
+  .BuildingTooltip_thumbnail--2oiDP::before {
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+    content: ' '; }
+  .BuildingTooltip_thumbnail--2oiDP .BuildingTooltip_image--fot4Z {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+
+.BuildingTooltip_image--fot4Z {
+  z-index: 10;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .BuildingTooltip_image__artillery-strike--3gjsH {
+    background-image: url(/static/images/artillery-strike.7e99d7aa.png); }
+  .BuildingTooltip_image__airstrike--3Kxyp {
+    background-image: url(/static/images/airstrike.c9784e5a.png); }
+  .BuildingTooltip_image__requisition--3SFu2 {
+    background-image: url(/static/images/requisition.acda8805.png); }
+  .BuildingTooltip_image__high-capacity-transport--1XZaS {
+    background-image: url(/static/images/high-capacity-transport.0036842a.png); }
+  .BuildingTooltip_image__additional-briefing--Y9qAH {
+    background-image: url(/static/images/additional-briefing.490af099.png); }
+  .BuildingTooltip_image__tactical-training--3jHWZ {
+    background-image: url(/static/images/tactical-training.bf76bd5b.png); }
+  .BuildingTooltip_image__military-maneuvers--2Vd-Z {
+    background-image: url(/static/images/military-maneuvers.937474a8.png); }
+  .BuildingTooltip_image__battle-payments--1YPf7 {
+    background-image: url(/static/images/battle-payments.38da95f0.png); }
+
+.BuildingTooltip_header--2UAHE {
+  padding: 0 0 5px; }
+
+.BuildingTooltip_title--36wz_ {
+  margin-bottom: 9px;
+  color: #fcf2c3;
+  font-size: 18px; }
+
+.BuildingTooltip_level--2HheT {
+  margin: 0;
+  color: #bf9d64;
+  line-height: 10px; }
+
+.BuildingTooltip_ribbon--3t9x2 {
+  margin-top: 3px;
+  margin-bottom: 0;
+  padding-top: 17px;
+  padding-bottom: 12px; }
+
+.BuildingTooltip_finishTime--37SMS {
+  color: #e3dcb2; }
+
+.BuildingTooltip_finishText--2fq2p {
+  color: #797a69; }
+.CommandCenterTooltip_root--fmaXh {
+  position: absolute;
+  z-index: 10000;
+  padding: 16px;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none; }
+
+.CommandCenterTooltip_root__show--25-gR {
+  visibility: visible;
+  opacity: 1; }
+
+.CommandCenterTooltip_body--2T5hY {
+  position: relative;
+  border: 1px solid #3d3b31;
+  border-radius: 2px;
+  box-shadow: 0 0 8px #000;
+  background: #070705; }
+
+.CommandCenterTooltip_wrapper--ky0LL {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  overflow: hidden;
+  border-width: 3px;
+  border-style: solid;
+  border-image: url(/static/images/bg-borders.bdeccf6d.png) 3 round round;
+  box-shadow: none;
+  background: linear-gradient(to top, rgba(201, 201, 182, 0.05), rgba(201, 201, 182, 0) 9%, rgba(201, 201, 182, 0) 89%, rgba(201, 201, 182, 0.05)); }
+
+.CommandCenterTooltip_content--XTo1G {
+  position: relative;
+  z-index: 20; }
+
+.CommandCenterTooltip_title--22ZvR {
+  margin: 0 0 15px;
+  color: #e9e2bf;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 17px; }
+
+.CommandCenterTooltip_subtitle--mlvbc {
+  margin: 12px 0 6px;
+  color: #e9e2bf;
+  font-size: 15px;
+  font-weight: 700; }
+  .CommandCenterTooltip_subtitle--mlvbc:first-child {
+    margin-top: 0; }
+
+.CommandCenterTooltip_message--3CjGd, .CommandCenterTooltip_warning--2Vj4B {
+  margin: 7px 0;
+  color: #8c8c7c;
+  font: 400 14px/18px "Roboto Condensed", sans-serif; }
+  .CommandCenterTooltip_message--3CjGd:first-child, .CommandCenterTooltip_warning--2Vj4B:first-child {
+    margin-top: 0; }
+  .CommandCenterTooltip_message--3CjGd:last-child, .CommandCenterTooltip_warning--2Vj4B:last-child {
+    margin-bottom: 0; }
+
+.CommandCenterTooltip_warning--2Vj4B {
+  color: #ee7000; }
+
+.CommandCenterTooltip_divider--9ATFO {
+  position: relative;
+  z-index: 5;
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 15px 0;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABCAYAAAAb4BS0AAAAD0lEQVQImWPwcbeZwQAFAA5aAWhFs7YXAAAAAElFTkSuQmCC);
+  -webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0, 0, 0, 0)), color-stop(0.1, rgba(0, 0, 0, 0.1)), color-stop(0.25, rgba(0, 0, 0, 0.4)), color-stop(0.5, black), color-stop(0.75, rgba(0, 0, 0, 0.4)), color-stop(0.9, rgba(0, 0, 0, 0.1)), color-stop(1, rgba(0, 0, 0, 0)));
+          mask-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0, 0, 0, 0)), color-stop(0.1, rgba(0, 0, 0, 0.1)), color-stop(0.25, rgba(0, 0, 0, 0.4)), color-stop(0.5, black), color-stop(0.75, rgba(0, 0, 0, 0.4)), color-stop(0.9, rgba(0, 0, 0, 0.1)), color-stop(1, rgba(0, 0, 0, 0))); }
+
+.CommandCenterTooltip_highlight--3xJgj {
+  color: #fefeec; }
+
+.CommandCenterTooltip_ribbon--3ktq5 {
+  position: relative;
+  margin: 19px -20px;
+  padding: 14px 20px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(255, 255, 255, 0.01)), color-stop(0.1, rgba(255, 255, 255, 0.02)), color-stop(0.25, rgba(255, 255, 255, 0.04)), color-stop(0.5, rgba(255, 255, 255, 0.06)), color-stop(0.75, rgba(255, 255, 255, 0.04)), color-stop(0.9, rgba(255, 255, 255, 0.02)), color-stop(1, rgba(255, 255, 255, 0.01)));
+  text-align: left; }
+  .CommandCenterTooltip_ribbon--3ktq5::before, .CommandCenterTooltip_ribbon--3ktq5::after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABCAYAAAAb4BS0AAAAD0lEQVQImWPwcbeZwQAFAA5aAWhFs7YXAAAAAElFTkSuQmCC);
+    content: '';
+    -webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0, 0, 0, 0)), color-stop(0.1, rgba(0, 0, 0, 0.1)), color-stop(0.25, rgba(0, 0, 0, 0.4)), color-stop(0.5, black), color-stop(0.75, rgba(0, 0, 0, 0.4)), color-stop(0.9, rgba(0, 0, 0, 0.1)), color-stop(1, rgba(0, 0, 0, 0)));
+            mask-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0, 0, 0, 0)), color-stop(0.1, rgba(0, 0, 0, 0.1)), color-stop(0.25, rgba(0, 0, 0, 0.4)), color-stop(0.5, black), color-stop(0.75, rgba(0, 0, 0, 0.4)), color-stop(0.9, rgba(0, 0, 0, 0.1)), color-stop(1, rgba(0, 0, 0, 0))); }
+  .CommandCenterTooltip_ribbon--3ktq5::before {
+    top: -1px; }
+  .CommandCenterTooltip_ribbon--3ktq5::after {
+    bottom: -1px; }
+
+.CommandCenterTooltip_statusMessage--25X7I {
+  margin: 15px 0 0; }
+
+.CommandCenterTooltip_statusMessage__positive--1pEMa, .CommandCenterTooltip_statusMessage__positive--1pEMa .CommandCenterTooltip_status--213sT {
+  text-align: center; }
+
+.CommandCenterTooltip_statusMessage__negative--d_9sF .CommandCenterTooltip_status--213sT {
+  text-align: left; }
+
+.CommandCenterTooltip_statusMessage__noPermission--2yKjH {
+  position: relative;
+  z-index: 4;
+  margin: -1px -20px 0;
+  padding: 16px 20px 0;
+  background: url(/static/images/disable-background.42ef1f71.png) no-repeat 0 0; }
+
+.CommandCenterTooltip_divider--9ATFO + .CommandCenterTooltip_statusMessage__noPermission--2yKjH {
+  margin-top: -16px; }
+
+.CommandCenterTooltip_status--213sT {
+  margin: 0;
+  color: #f5f0e5;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center; }
+
+.CommandCenterTooltip_statusMessage__positive--1pEMa .CommandCenterTooltip_status--213sT, .CommandCenterTooltip_status__positive--1VYzT {
+  color: #7ab300; }
+
+.CommandCenterTooltip_statusMessage__negative--d_9sF .CommandCenterTooltip_status--213sT, .CommandCenterTooltip_status__negative--3Os99 {
+  color: #ff2717; }
+
+.CommandCenterTooltip_statusText--1MIXZ {
+  margin: 5px 0 0;
+  color: #595950;
+  font-size: 14px;
+  font-weight: 400; }
+
+.CommandCenterTooltip_statusMessage__noPermission--2yKjH .CommandCenterTooltip_statusText--1MIXZ {
+  color: #686656; }
+
+.CommandCenterTooltip_base--3AdUH {
+  width: 360px; }
+
+.CommandCenterTooltip_title--22ZvR {
+  margin-bottom: 9px;
+  color: #fcf2c3;
+  font-size: 18px; }
+
+.CommandCenterTooltip_level--3xaPR {
+  margin: 0 0 10px;
+  color: #bf9d64;
+  line-height: 10px; }
+
+.CommandCenterTooltip_infoLevel--3NugR {
+  color: #bf9d64; }
+
+.CommandCenterTooltip_info--2_1OV {
+  margin: 12px 0 0;
+  color: #797a69; }
+
+.CommandCenterTooltip_header--1Z6xo {
+  padding: 0 0 5px; }
+.Gamefield_base--34xhk {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position: center;
+  background-color: #12140a;
+  background-image: url(/static/images/gamefield-50.8a702b76.jpg);
+  background-repeat: no-repeat; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .Gamefield_base--34xhk {
+      top: -60px;
+      background-image: url(/static/images/gamefield-75.94928159.jpg); } }
+  @media (min-width: 2200px) and (min-height: 1100px) {
+    .Gamefield_base--34xhk {
+      background-image: url(/static/images/gamefield-100.b4f49d76.jpg); } }
+  .Gamefield_base__external--PV4WQ {
+    position: relative;
+    bottom: auto;
+    height: 820px;
+    background-image: url(/static/images/gamefield-external-50.8ff86827.jpg); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Gamefield_base__external--PV4WQ {
+        height: 1230px;
+        background-image: url(/static/images/gamefield-external-75.acb62813.jpg); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Gamefield_base__external--PV4WQ {
+        height: 1640px;
+        background-image: url(/static/images/gamefield-external-100.4108bc4e.jpg); } }
+.StartingPoint_base--17m5v {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 149px 0 0 5px; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .StartingPoint_base--17m5v {
+      margin-top: 222px; } }
+  @media (min-width: 2200px) and (min-height: 1100px) {
+    .StartingPoint_base--17m5v {
+      margin-top: 297px; } }
+
+.StartingPoint_placeholder--31zfz {
+  position: absolute; }
+  .StartingPoint_placeholder__A1--3RuGR {
+    top: -61px;
+    left: -152px;
+    z-index: 200; }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .StartingPoint_placeholder__A1--3RuGR {
+        top: -91.5px;
+        left: -228px; } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .StartingPoint_placeholder__A1--3RuGR {
+        top: -122px;
+        left: -304px; } }
+  .StartingPoint_placeholder__A2--8RvoV {
+    top: -114px;
+    left: -305px;
+    z-index: 190; }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .StartingPoint_placeholder__A2--8RvoV {
+        top: -171px;
+        left: -457.5px; } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .StartingPoint_placeholder__A2--8RvoV {
+        top: -228px;
+        left: -610px; } }
+  .StartingPoint_placeholder__B1--3dDN4 {
+    top: -154px;
+    left: -117.5px;
+    z-index: 180; }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .StartingPoint_placeholder__B1--3dDN4 {
+        top: -231px;
+        left: -176.25px; } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .StartingPoint_placeholder__B1--3dDN4 {
+        top: -308px;
+        left: -235px; } }
+  .StartingPoint_placeholder__B2--2olEa {
+    top: -244px;
+    left: -65px;
+    z-index: 170; }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .StartingPoint_placeholder__B2--2olEa {
+        top: -366px;
+        left: -97.5px; } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .StartingPoint_placeholder__B2--2olEa {
+        top: -488px;
+        left: -130px; } }
+  .StartingPoint_placeholder__C1--xIq0Y {
+    top: -130px;
+    left: 37px;
+    z-index: 180; }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .StartingPoint_placeholder__C1--xIq0Y {
+        top: -195px;
+        left: 55.5px; } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .StartingPoint_placeholder__C1--xIq0Y {
+        top: -260px;
+        left: 74px; } }
+  .StartingPoint_placeholder__C2--GxK86 {
+    top: -222.5px;
+    left: 150.5px;
+    z-index: 170; }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .StartingPoint_placeholder__C2--GxK86 {
+        top: -333.75px;
+        left: 225.75px; } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .StartingPoint_placeholder__C2--GxK86 {
+        top: -445px;
+        left: 301px; } }
+  .StartingPoint_placeholder__D1--30BUG {
+    top: -69.5px;
+    left: 186px;
+    z-index: 200; }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .StartingPoint_placeholder__D1--30BUG {
+        top: -104.25px;
+        left: 279px; } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .StartingPoint_placeholder__D1--30BUG {
+        top: -139px;
+        left: 372px; } }
+  .StartingPoint_placeholder__D2--36yyS {
+    top: -125px;
+    left: 338px;
+    z-index: 190; }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .StartingPoint_placeholder__D2--36yyS {
+        top: -187.5px;
+        left: 507px; } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .StartingPoint_placeholder__D2--36yyS {
+        top: -250px;
+        left: 676px; } }
+
+.StartingPoint_inner--32r_F {
+  position: absolute;
+  transform: translate(-50%, -50%); }
+.UpgradeIcon_base--2RVSm {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 36px;
+  background: url(/static/images/arrow-base.e1b35331.png); }
+
+.UpgradeIcon_arrowLayer--2WTDq {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  animation-fill-mode: backwards;
+  animation-name: UpgradeIcon_arrow-flow--1hLW6;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+  @media (min-height: 724px) {
+    .UpgradeIcon_arrowLayer--2WTDq {
+      display: block; } }
+  .UpgradeIcon_arrowLayer__0--33tnC {
+    background-image: url(/static/images/arrow-0.71774c18.png);
+    animation-delay: 0s; }
+  .UpgradeIcon_arrowLayer__1--2nIFz {
+    background-image: url(/static/images/arrow-1.7fd3d0b6.png);
+    animation-delay: 0.15s; }
+  .UpgradeIcon_arrowLayer__2--3Wipd {
+    background-image: url(/static/images/arrow-2.d5a5674e.png);
+    animation-delay: 0.3s; }
+  .UpgradeIcon_arrowLayer__3--t60Sm {
+    background-image: url(/static/images/arrow-3.96a38a2a.png);
+    animation-delay: 0.45s; }
+  .UpgradeIcon_arrowLayer__4--Gb3ri {
+    background-image: url(/static/images/arrow-4.a570465e.png);
+    animation-delay: 0.6s; }
+
+@keyframes UpgradeIcon_arrow-flow--1hLW6 {
+  0%,
+  24% {
+    opacity: 0; }
+  30%,
+  36% {
+    opacity: 1; }
+  50%,
+  100% {
+    opacity: 0; } }
+.CommandCenter_title--1hSr3 {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  z-index: 20;
+  width: 250px;
+  margin: 0 0 -10px -125px;
+  color: #e9e2bf;
+  font: 400 14px/1 "Roboto Condensed", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 4px #000;
+  white-space: nowrap;
+  letter-spacing: -.04em;
+  transition: color .3s;
+  pointer-events: none; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .CommandCenter_title--1hSr3 {
+      font-size: 14px; } }
+  @media (min-width: 2200px) and (min-height: 1100px) {
+    .CommandCenter_title--1hSr3 {
+      font-size: 15px; } }
+
+.CommandCenter_level--1tU-N {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0 5px 0 0;
+  font-weight: 700; }
+
+.CommandCenter_levelShadow--3-4Bd {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  color: transparent;
+  /* stylelint-disable property-no-vendor-prefix */
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.7);
+  /* stylelint-enable */ }
+  .CommandCenter_levelShadow--3-4Bd::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 0 14px 4px #000;
+    content: ''; }
+
+.CommandCenter_base--lioqD {
+  cursor: pointer; }
+  .CommandCenter_base__foreign--1cLbI {
+    cursor: default; }
+
+.CommandCenter_image--1RiCu {
+  transition: -webkit-filter .2s;
+  transition: filter .2s;
+  transition: filter .2s, -webkit-filter .2s; }
+  .CommandCenter_base--lioqD:hover .CommandCenter_image--1RiCu {
+    -webkit-filter: brightness(1.1);
+            filter: brightness(1.1); }
+  .CommandCenter_image__1--2hixE {
+    width: 180px;
+    height: 100px;
+    background-image: url(/static/images/command-center-lvl1-50.d46dd6b7.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .CommandCenter_image__1--2hixE {
+        width: 270px;
+        height: 150px;
+        background-image: url(/static/images/command-center-lvl1-75.8455d2a7.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .CommandCenter_image__1--2hixE {
+        width: 360px;
+        height: 200px;
+        background-image: url(/static/images/command-center-lvl1-100.33b62d29.png); } }
+  .CommandCenter_image__2--3jKB6 {
+    width: 180px;
+    height: 100px;
+    background-image: url(/static/images/command-center-lvl1-50.d46dd6b7.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .CommandCenter_image__2--3jKB6 {
+        width: 270px;
+        height: 150px;
+        background-image: url(/static/images/command-center-lvl1-75.8455d2a7.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .CommandCenter_image__2--3jKB6 {
+        width: 360px;
+        height: 200px;
+        background-image: url(/static/images/command-center-lvl1-100.33b62d29.png); } }
+  .CommandCenter_image__3--g8opy {
+    width: 180px;
+    height: 100px;
+    background-image: url(/static/images/command-center-lvl1-50.d46dd6b7.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .CommandCenter_image__3--g8opy {
+        width: 270px;
+        height: 150px;
+        background-image: url(/static/images/command-center-lvl1-75.8455d2a7.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .CommandCenter_image__3--g8opy {
+        width: 360px;
+        height: 200px;
+        background-image: url(/static/images/command-center-lvl1-100.33b62d29.png); } }
+  .CommandCenter_image__4--Z9I2T {
+    width: 180px;
+    height: 100px;
+    background-image: url(/static/images/command-center-lvl1-50.d46dd6b7.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .CommandCenter_image__4--Z9I2T {
+        width: 270px;
+        height: 150px;
+        background-image: url(/static/images/command-center-lvl1-75.8455d2a7.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .CommandCenter_image__4--Z9I2T {
+        width: 360px;
+        height: 200px;
+        background-image: url(/static/images/command-center-lvl1-100.33b62d29.png); } }
+  .CommandCenter_image__5--3uQyY {
+    width: 180px;
+    height: 100px;
+    background-image: url(/static/images/command-center-lvl1-50.d46dd6b7.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .CommandCenter_image__5--3uQyY {
+        width: 270px;
+        height: 150px;
+        background-image: url(/static/images/command-center-lvl1-75.8455d2a7.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .CommandCenter_image__5--3uQyY {
+        width: 360px;
+        height: 200px;
+        background-image: url(/static/images/command-center-lvl1-100.33b62d29.png); } }
+  .CommandCenter_image__6--1buts {
+    width: 180px;
+    height: 100px;
+    background-image: url(/static/images/command-center-lvl2-50.63078c03.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .CommandCenter_image__6--1buts {
+        width: 270px;
+        height: 150px;
+        background-image: url(/static/images/command-center-lvl2-75.bb544441.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .CommandCenter_image__6--1buts {
+        width: 360px;
+        height: 200px;
+        background-image: url(/static/images/command-center-lvl2-100.fc9d80c0.png); } }
+  .CommandCenter_image__7--24cFK {
+    width: 180px;
+    height: 100px;
+    background-image: url(/static/images/command-center-lvl2-50.63078c03.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .CommandCenter_image__7--24cFK {
+        width: 270px;
+        height: 150px;
+        background-image: url(/static/images/command-center-lvl2-75.bb544441.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .CommandCenter_image__7--24cFK {
+        width: 360px;
+        height: 200px;
+        background-image: url(/static/images/command-center-lvl2-100.fc9d80c0.png); } }
+  .CommandCenter_image__8--34OWF {
+    width: 180px;
+    height: 100px;
+    background-image: url(/static/images/command-center-lvl2-50.63078c03.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .CommandCenter_image__8--34OWF {
+        width: 270px;
+        height: 150px;
+        background-image: url(/static/images/command-center-lvl2-75.bb544441.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .CommandCenter_image__8--34OWF {
+        width: 360px;
+        height: 200px;
+        background-image: url(/static/images/command-center-lvl2-100.fc9d80c0.png); } }
+  .CommandCenter_image__9--3N1Qa {
+    width: 180px;
+    height: 100px;
+    background-image: url(/static/images/command-center-lvl2-50.63078c03.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .CommandCenter_image__9--3N1Qa {
+        width: 270px;
+        height: 150px;
+        background-image: url(/static/images/command-center-lvl2-75.bb544441.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .CommandCenter_image__9--3N1Qa {
+        width: 360px;
+        height: 200px;
+        background-image: url(/static/images/command-center-lvl2-100.fc9d80c0.png); } }
+  .CommandCenter_image__10--3r0i7 {
+    width: 180px;
+    height: 100px;
+    background-image: url(/static/images/command-center-lvl3-50.dd6d9807.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .CommandCenter_image__10--3r0i7 {
+        width: 270px;
+        height: 150px;
+        background-image: url(/static/images/command-center-lvl3-75.9fc9e64d.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .CommandCenter_image__10--3r0i7 {
+        width: 360px;
+        height: 200px;
+        background-image: url(/static/images/command-center-lvl3-100.9ddbbd3c.png); } }
+
+.CommandCenter_base--lioqD:hover .CommandCenter_title--1hSr3 {
+  color: #f5f0e5; }
+
+.CommandCenter_level--1tU-N {
+  background-image: -webkit-repeating-linear-gradient(top, #fff 0, #898676 100%);
+  /* stylelint-disable-line value-no-vendor-prefix */
+  -webkit-background-clip: text;
+  /* stylelint-disable-line property-no-vendor-prefix */
+  -webkit-text-fill-color: transparent;
+  /* stylelint-disable-line property-no-vendor-prefix */
+  color: #fff;
+  text-shadow: none; }
+
+.CommandCenter_levelShadow--3-4Bd {
+  line-height: initial; }
+
+.CommandCenter_upgradeAvailable--3Q2MV {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  margin-bottom: -16px;
+  text-align: center; }
+.Slot_caption--1vyHw {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  z-index: 20;
+  width: 250px;
+  margin: 0 0 -10px -125px;
+  color: #e9e2bf;
+  font: 400 14px/1 "Roboto Condensed", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 4px #000;
+  white-space: nowrap;
+  letter-spacing: -.04em;
+  transition: color .3s;
+  pointer-events: none; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .Slot_caption--1vyHw {
+      font-size: 14px; } }
+  @media (min-width: 2200px) and (min-height: 1100px) {
+    .Slot_caption--1vyHw {
+      font-size: 15px; } }
+
+.Slot_base--1dk8f {
+  position: relative;
+  width: 128px;
+  height: 78px;
+  background-image: url(/static/images/slot-50.c2cd79b8.png);
+  transition: -webkit-filter .2s;
+  transition: filter .2s;
+  transition: filter .2s, -webkit-filter .2s;
+  pointer-events: none; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .Slot_base--1dk8f {
+      width: 194px;
+      height: 120px;
+      background-image: url(/static/images/slot-75.b4f5a43c.png); } }
+  @media (min-width: 2200px) and (min-height: 1100px) {
+    .Slot_base--1dk8f {
+      width: 234px;
+      height: 144px;
+      background-image: url(/static/images/slot-100.c35f51c8.png); } }
+  .Slot_base__own--32jL8:hover {
+    cursor: pointer;
+    -webkit-filter: brightness(1.1);
+            filter: brightness(1.1); }
+
+.Slot_clickArea--1MEIE {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  margin: -8px 0 0;
+  border-radius: 100%;
+  transform: translate(-50%, -50%) rotate(45deg) skew(-15deg, -16deg);
+  pointer-events: auto; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .Slot_clickArea--1MEIE {
+      width: 88px;
+      height: 80px; } }
+  @media (min-width: 2200px) and (min-height: 1100px) {
+    .Slot_clickArea--1MEIE {
+      width: 100px;
+      height: 100px; } }
+
+.Slot_caption--1vyHw {
+  padding-right: 5px;
+  color: rgba(245, 240, 229, 0.6);
+  text-align: center;
+  will-change: color; }
+  .Slot_base__own--32jL8:hover .Slot_caption--1vyHw {
+    color: #f5f0e5; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .Slot_caption--1vyHw {
+      padding-right: 8px; } }
+  @media (min-width: 2200px) and (min-height: 1100px) {
+    .Slot_caption--1vyHw {
+      padding-right: 10px; } }
+
+.Slot_captionInner--2oDjg {
+  display: inline-block;
+  margin-bottom: -40px;
+  padding-bottom: 40px;
+  pointer-events: auto; }
+
+.Slot_icon--GC_n3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 54px;
+  height: 54px;
+  margin: -33px 0 0 -31px;
+  background-image: url(/static/images/slot-icon-75.bd76065f.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity .3s, transform .2s;
+  transform: scale(0.6); }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .Slot_icon--GC_n3 {
+      width: 64px;
+      height: 64px;
+      margin-top: -42px;
+      margin-left: -39px;
+      background-image: url(/static/images/slot-icon-100.dc031c4e.png); } }
+  @media (min-width: 2200px) and (min-height: 1100px) {
+    .Slot_icon--GC_n3 {
+      margin-top: -46px;
+      margin-left: -38px; } }
+  .Slot_base__own--32jL8:hover .Slot_icon--GC_n3 {
+    opacity: 1;
+    transform: scale(1); }
+.Building_title--3hNst {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  z-index: 20;
+  width: 250px;
+  margin: 0 0 -10px -125px;
+  color: #e9e2bf;
+  font: 400 14px/1 "Roboto Condensed", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 4px #000;
+  white-space: nowrap;
+  letter-spacing: -.04em;
+  transition: color .3s;
+  pointer-events: none; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .Building_title--3hNst {
+      font-size: 14px; } }
+  @media (min-width: 2200px) and (min-height: 1100px) {
+    .Building_title--3hNst {
+      font-size: 15px; } }
+
+.Building_level--3ngLU {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0 5px 0 0;
+  font-weight: 700; }
+
+.Building_levelShadow--am1Nz {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  color: transparent;
+  /* stylelint-disable property-no-vendor-prefix */
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.7);
+  /* stylelint-enable */ }
+  .Building_levelShadow--am1Nz::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 0 14px 4px #000;
+    content: ''; }
+
+@keyframes Building_smoke-in--3j86S {
+  0% {
+    opacity: 0;
+    transform: scale(0.74); }
+  100% {
+    opacity: .9;
+    transform: scale(0.8); } }
+
+@keyframes Building_smoke-out--2EyW6 {
+  0% {
+    opacity: .9;
+    transform: scale(0.8); }
+  100% {
+    opacity: 0;
+    transform: scale(0.86); } }
+
+@keyframes Building_building-down--3eEgK {
+  0% {
+    opacity: 0;
+    transform: translate(0, -30px); }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0); } }
+
+.Building_base--13H0v, .Building_image--3ZGCs {
+  width: 128px;
+  height: 78px; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .Building_base--13H0v, .Building_image--3ZGCs {
+      width: 194px;
+      height: 120px; } }
+  @media (min-width: 2200px) and (min-height: 1100px) {
+    .Building_base--13H0v, .Building_image--3ZGCs {
+      width: 234px;
+      height: 144px; } }
+
+.Building_base--13H0v {
+  position: relative;
+  z-index: 0;
+  cursor: pointer; }
+  .Building_base__foreign--3hC8f {
+    cursor: default; }
+
+.Building_image--3ZGCs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  opacity: 0;
+  transition: -webkit-filter .2s;
+  transition: filter .2s;
+  transition: filter .2s, -webkit-filter .2s;
+  transform: translate(0, -30px); }
+  .Building_base--13H0v:hover .Building_image--3ZGCs {
+    -webkit-filter: brightness(1.1);
+            filter: brightness(1.1); }
+  .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-1--I5FJL {
+    background-image: url(/static/images/attack-bomber-squadrons-lvl1-50.0a6f89cb.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-1--I5FJL {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl1-75.1c523544.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-1--I5FJL {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl1-100.cad05080.png); } }
+  .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-2--2ZIJr {
+    background-image: url(/static/images/attack-bomber-squadrons-lvl1-50.0a6f89cb.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-2--2ZIJr {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl1-75.1c523544.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-2--2ZIJr {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl1-100.cad05080.png); } }
+  .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-3--3Ctar {
+    background-image: url(/static/images/attack-bomber-squadrons-lvl1-50.0a6f89cb.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-3--3Ctar {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl1-75.1c523544.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-3--3Ctar {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl1-100.cad05080.png); } }
+  .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-4--p9OZ6 {
+    background-image: url(/static/images/attack-bomber-squadrons-lvl1-50.0a6f89cb.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-4--p9OZ6 {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl1-75.1c523544.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-4--p9OZ6 {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl1-100.cad05080.png); } }
+  .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-5--2s4G8 {
+    background-image: url(/static/images/attack-bomber-squadrons-lvl1-50.0a6f89cb.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-5--2s4G8 {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl1-75.1c523544.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-5--2s4G8 {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl1-100.cad05080.png); } }
+  .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-6--25z7V {
+    background-image: url(/static/images/attack-bomber-squadrons-lvl2-50.6802bd2b.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-6--25z7V {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl2-75.fdc7fbbf.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-6--25z7V {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl2-100.8e55a0e6.png); } }
+  .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-7--2MA_V {
+    background-image: url(/static/images/attack-bomber-squadrons-lvl2-50.6802bd2b.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-7--2MA_V {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl2-75.fdc7fbbf.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-7--2MA_V {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl2-100.8e55a0e6.png); } }
+  .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-8--1BN7t {
+    background-image: url(/static/images/attack-bomber-squadrons-lvl2-50.6802bd2b.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-8--1BN7t {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl2-75.fdc7fbbf.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-8--1BN7t {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl2-100.8e55a0e6.png); } }
+  .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-9--1DnZl {
+    background-image: url(/static/images/attack-bomber-squadrons-lvl2-50.6802bd2b.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-9--1DnZl {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl2-75.fdc7fbbf.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-9--1DnZl {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl2-100.8e55a0e6.png); } }
+  .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-10--3w6Mw {
+    background-image: url(/static/images/attack-bomber-squadrons-lvl3-50.1ab5e937.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-10--3w6Mw {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl3-75.ce4eda03.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__attack-bomber-squadrons--3R8in.Building_image__level-10--3w6Mw {
+        background-image: url(/static/images/attack-bomber-squadrons-lvl3-100.e64d37e8.png); } }
+  .Building_image__training-unit--16xUd.Building_image__level-1--I5FJL {
+    background-image: url(/static/images/training-unit-lvl1-50.5f41db13.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__training-unit--16xUd.Building_image__level-1--I5FJL {
+        background-image: url(/static/images/training-unit-lvl1-75.f78655ff.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__training-unit--16xUd.Building_image__level-1--I5FJL {
+        background-image: url(/static/images/training-unit-lvl1-100.b09f2cf6.png); } }
+  .Building_image__training-unit--16xUd.Building_image__level-2--2ZIJr {
+    background-image: url(/static/images/training-unit-lvl1-50.5f41db13.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__training-unit--16xUd.Building_image__level-2--2ZIJr {
+        background-image: url(/static/images/training-unit-lvl1-75.f78655ff.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__training-unit--16xUd.Building_image__level-2--2ZIJr {
+        background-image: url(/static/images/training-unit-lvl1-100.b09f2cf6.png); } }
+  .Building_image__training-unit--16xUd.Building_image__level-3--3Ctar {
+    background-image: url(/static/images/training-unit-lvl1-50.5f41db13.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__training-unit--16xUd.Building_image__level-3--3Ctar {
+        background-image: url(/static/images/training-unit-lvl1-75.f78655ff.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__training-unit--16xUd.Building_image__level-3--3Ctar {
+        background-image: url(/static/images/training-unit-lvl1-100.b09f2cf6.png); } }
+  .Building_image__training-unit--16xUd.Building_image__level-4--p9OZ6 {
+    background-image: url(/static/images/training-unit-lvl1-50.5f41db13.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__training-unit--16xUd.Building_image__level-4--p9OZ6 {
+        background-image: url(/static/images/training-unit-lvl1-75.f78655ff.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__training-unit--16xUd.Building_image__level-4--p9OZ6 {
+        background-image: url(/static/images/training-unit-lvl1-100.b09f2cf6.png); } }
+  .Building_image__training-unit--16xUd.Building_image__level-5--2s4G8 {
+    background-image: url(/static/images/training-unit-lvl1-50.5f41db13.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__training-unit--16xUd.Building_image__level-5--2s4G8 {
+        background-image: url(/static/images/training-unit-lvl1-75.f78655ff.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__training-unit--16xUd.Building_image__level-5--2s4G8 {
+        background-image: url(/static/images/training-unit-lvl1-100.b09f2cf6.png); } }
+  .Building_image__training-unit--16xUd.Building_image__level-6--25z7V {
+    background-image: url(/static/images/training-unit-lvl2-50.d5d8a5c5.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__training-unit--16xUd.Building_image__level-6--25z7V {
+        background-image: url(/static/images/training-unit-lvl2-75.f855f553.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__training-unit--16xUd.Building_image__level-6--25z7V {
+        background-image: url(/static/images/training-unit-lvl2-100.02611ca7.png); } }
+  .Building_image__training-unit--16xUd.Building_image__level-7--2MA_V {
+    background-image: url(/static/images/training-unit-lvl2-50.d5d8a5c5.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__training-unit--16xUd.Building_image__level-7--2MA_V {
+        background-image: url(/static/images/training-unit-lvl2-75.f855f553.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__training-unit--16xUd.Building_image__level-7--2MA_V {
+        background-image: url(/static/images/training-unit-lvl2-100.02611ca7.png); } }
+  .Building_image__training-unit--16xUd.Building_image__level-8--1BN7t {
+    background-image: url(/static/images/training-unit-lvl2-50.d5d8a5c5.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__training-unit--16xUd.Building_image__level-8--1BN7t {
+        background-image: url(/static/images/training-unit-lvl2-75.f855f553.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__training-unit--16xUd.Building_image__level-8--1BN7t {
+        background-image: url(/static/images/training-unit-lvl2-100.02611ca7.png); } }
+  .Building_image__training-unit--16xUd.Building_image__level-9--1DnZl {
+    background-image: url(/static/images/training-unit-lvl2-50.d5d8a5c5.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__training-unit--16xUd.Building_image__level-9--1DnZl {
+        background-image: url(/static/images/training-unit-lvl2-75.f855f553.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__training-unit--16xUd.Building_image__level-9--1DnZl {
+        background-image: url(/static/images/training-unit-lvl2-100.02611ca7.png); } }
+  .Building_image__training-unit--16xUd.Building_image__level-10--3w6Mw {
+    background-image: url(/static/images/training-unit-lvl3-50.8adeedfc.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__training-unit--16xUd.Building_image__level-10--3w6Mw {
+        background-image: url(/static/images/training-unit-lvl3-75.dbe34110.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__training-unit--16xUd.Building_image__level-10--3w6Mw {
+        background-image: url(/static/images/training-unit-lvl3-100.564b651f.png); } }
+  .Building_image__tankodrome--29hYy.Building_image__level-1--I5FJL {
+    background-image: url(/static/images/tankodrome-lvl1-50.da7cc7f4.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-1--I5FJL {
+        background-image: url(/static/images/tankodrome-lvl1-75.0e3b9846.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-1--I5FJL {
+        background-image: url(/static/images/tankodrome-lvl1-100.88fc0abf.png); } }
+  .Building_image__tankodrome--29hYy.Building_image__level-2--2ZIJr {
+    background-image: url(/static/images/tankodrome-lvl1-50.da7cc7f4.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-2--2ZIJr {
+        background-image: url(/static/images/tankodrome-lvl1-75.0e3b9846.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-2--2ZIJr {
+        background-image: url(/static/images/tankodrome-lvl1-100.88fc0abf.png); } }
+  .Building_image__tankodrome--29hYy.Building_image__level-3--3Ctar {
+    background-image: url(/static/images/tankodrome-lvl1-50.da7cc7f4.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-3--3Ctar {
+        background-image: url(/static/images/tankodrome-lvl1-75.0e3b9846.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-3--3Ctar {
+        background-image: url(/static/images/tankodrome-lvl1-100.88fc0abf.png); } }
+  .Building_image__tankodrome--29hYy.Building_image__level-4--p9OZ6 {
+    background-image: url(/static/images/tankodrome-lvl1-50.da7cc7f4.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-4--p9OZ6 {
+        background-image: url(/static/images/tankodrome-lvl1-75.0e3b9846.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-4--p9OZ6 {
+        background-image: url(/static/images/tankodrome-lvl1-100.88fc0abf.png); } }
+  .Building_image__tankodrome--29hYy.Building_image__level-5--2s4G8 {
+    background-image: url(/static/images/tankodrome-lvl1-50.da7cc7f4.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-5--2s4G8 {
+        background-image: url(/static/images/tankodrome-lvl1-75.0e3b9846.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-5--2s4G8 {
+        background-image: url(/static/images/tankodrome-lvl1-100.88fc0abf.png); } }
+  .Building_image__tankodrome--29hYy.Building_image__level-6--25z7V {
+    background-image: url(/static/images/tankodrome-lvl2-50.c54dc728.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-6--25z7V {
+        background-image: url(/static/images/tankodrome-lvl2-75.3b0eced3.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-6--25z7V {
+        background-image: url(/static/images/tankodrome-lvl2-100.11172afa.png); } }
+  .Building_image__tankodrome--29hYy.Building_image__level-7--2MA_V {
+    background-image: url(/static/images/tankodrome-lvl2-50.c54dc728.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-7--2MA_V {
+        background-image: url(/static/images/tankodrome-lvl2-75.3b0eced3.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-7--2MA_V {
+        background-image: url(/static/images/tankodrome-lvl2-100.11172afa.png); } }
+  .Building_image__tankodrome--29hYy.Building_image__level-8--1BN7t {
+    background-image: url(/static/images/tankodrome-lvl2-50.c54dc728.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-8--1BN7t {
+        background-image: url(/static/images/tankodrome-lvl2-75.3b0eced3.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-8--1BN7t {
+        background-image: url(/static/images/tankodrome-lvl2-100.11172afa.png); } }
+  .Building_image__tankodrome--29hYy.Building_image__level-9--1DnZl {
+    background-image: url(/static/images/tankodrome-lvl2-50.c54dc728.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-9--1DnZl {
+        background-image: url(/static/images/tankodrome-lvl2-75.3b0eced3.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-9--1DnZl {
+        background-image: url(/static/images/tankodrome-lvl2-100.11172afa.png); } }
+  .Building_image__tankodrome--29hYy.Building_image__level-10--3w6Mw {
+    background-image: url(/static/images/tankodrome-lvl3-50.ca04f129.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-10--3w6Mw {
+        background-image: url(/static/images/tankodrome-lvl3-75.aae85fcf.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__tankodrome--29hYy.Building_image__level-10--3w6Mw {
+        background-image: url(/static/images/tankodrome-lvl3-100.f423ad64.png); } }
+  .Building_image__financial-unit--2tLpo.Building_image__level-1--I5FJL {
+    background-image: url(/static/images/financial-unit-lvl1-50.19055620.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-1--I5FJL {
+        background-image: url(/static/images/financial-unit-lvl1-75.7fc98b3f.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-1--I5FJL {
+        background-image: url(/static/images/financial-unit-lvl1-100.8232ecdc.png); } }
+  .Building_image__financial-unit--2tLpo.Building_image__level-2--2ZIJr {
+    background-image: url(/static/images/financial-unit-lvl1-50.19055620.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-2--2ZIJr {
+        background-image: url(/static/images/financial-unit-lvl1-75.7fc98b3f.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-2--2ZIJr {
+        background-image: url(/static/images/financial-unit-lvl1-100.8232ecdc.png); } }
+  .Building_image__financial-unit--2tLpo.Building_image__level-3--3Ctar {
+    background-image: url(/static/images/financial-unit-lvl1-50.19055620.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-3--3Ctar {
+        background-image: url(/static/images/financial-unit-lvl1-75.7fc98b3f.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-3--3Ctar {
+        background-image: url(/static/images/financial-unit-lvl1-100.8232ecdc.png); } }
+  .Building_image__financial-unit--2tLpo.Building_image__level-4--p9OZ6 {
+    background-image: url(/static/images/financial-unit-lvl1-50.19055620.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-4--p9OZ6 {
+        background-image: url(/static/images/financial-unit-lvl1-75.7fc98b3f.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-4--p9OZ6 {
+        background-image: url(/static/images/financial-unit-lvl1-100.8232ecdc.png); } }
+  .Building_image__financial-unit--2tLpo.Building_image__level-5--2s4G8 {
+    background-image: url(/static/images/financial-unit-lvl1-50.19055620.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-5--2s4G8 {
+        background-image: url(/static/images/financial-unit-lvl1-75.7fc98b3f.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-5--2s4G8 {
+        background-image: url(/static/images/financial-unit-lvl1-100.8232ecdc.png); } }
+  .Building_image__financial-unit--2tLpo.Building_image__level-6--25z7V {
+    background-image: url(/static/images/financial-unit-lvl2-50.267e6793.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-6--25z7V {
+        background-image: url(/static/images/financial-unit-lvl2-75.f7c9001f.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-6--25z7V {
+        background-image: url(/static/images/financial-unit-lvl2-100.52130214.png); } }
+  .Building_image__financial-unit--2tLpo.Building_image__level-7--2MA_V {
+    background-image: url(/static/images/financial-unit-lvl2-50.267e6793.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-7--2MA_V {
+        background-image: url(/static/images/financial-unit-lvl2-75.f7c9001f.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-7--2MA_V {
+        background-image: url(/static/images/financial-unit-lvl2-100.52130214.png); } }
+  .Building_image__financial-unit--2tLpo.Building_image__level-8--1BN7t {
+    background-image: url(/static/images/financial-unit-lvl2-50.267e6793.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-8--1BN7t {
+        background-image: url(/static/images/financial-unit-lvl2-75.f7c9001f.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-8--1BN7t {
+        background-image: url(/static/images/financial-unit-lvl2-100.52130214.png); } }
+  .Building_image__financial-unit--2tLpo.Building_image__level-9--1DnZl {
+    background-image: url(/static/images/financial-unit-lvl2-50.267e6793.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-9--1DnZl {
+        background-image: url(/static/images/financial-unit-lvl2-75.f7c9001f.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-9--1DnZl {
+        background-image: url(/static/images/financial-unit-lvl2-100.52130214.png); } }
+  .Building_image__financial-unit--2tLpo.Building_image__level-10--3w6Mw {
+    background-image: url(/static/images/financial-unit-lvl3-50.a8fe6e3f.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-10--3w6Mw {
+        background-image: url(/static/images/financial-unit-lvl3-75.9c44912c.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__financial-unit--2tLpo.Building_image__level-10--3w6Mw {
+        background-image: url(/static/images/financial-unit-lvl3-100.0a5cf7a0.png); } }
+  .Building_image__transportation-unit--3JJLa.Building_image__level-1--I5FJL {
+    background-image: url(/static/images/transportation-unit-lvl1-50.583a9c52.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-1--I5FJL {
+        background-image: url(/static/images/transportation-unit-lvl1-75.b1ece3d1.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-1--I5FJL {
+        background-image: url(/static/images/transportation-unit-lvl1-100.24f4b34d.png); } }
+  .Building_image__transportation-unit--3JJLa.Building_image__level-2--2ZIJr {
+    background-image: url(/static/images/transportation-unit-lvl1-50.583a9c52.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-2--2ZIJr {
+        background-image: url(/static/images/transportation-unit-lvl1-75.b1ece3d1.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-2--2ZIJr {
+        background-image: url(/static/images/transportation-unit-lvl1-100.24f4b34d.png); } }
+  .Building_image__transportation-unit--3JJLa.Building_image__level-3--3Ctar {
+    background-image: url(/static/images/transportation-unit-lvl1-50.583a9c52.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-3--3Ctar {
+        background-image: url(/static/images/transportation-unit-lvl1-75.b1ece3d1.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-3--3Ctar {
+        background-image: url(/static/images/transportation-unit-lvl1-100.24f4b34d.png); } }
+  .Building_image__transportation-unit--3JJLa.Building_image__level-4--p9OZ6 {
+    background-image: url(/static/images/transportation-unit-lvl1-50.583a9c52.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-4--p9OZ6 {
+        background-image: url(/static/images/transportation-unit-lvl1-75.b1ece3d1.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-4--p9OZ6 {
+        background-image: url(/static/images/transportation-unit-lvl1-100.24f4b34d.png); } }
+  .Building_image__transportation-unit--3JJLa.Building_image__level-5--2s4G8 {
+    background-image: url(/static/images/transportation-unit-lvl1-50.583a9c52.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-5--2s4G8 {
+        background-image: url(/static/images/transportation-unit-lvl1-75.b1ece3d1.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-5--2s4G8 {
+        background-image: url(/static/images/transportation-unit-lvl1-100.24f4b34d.png); } }
+  .Building_image__transportation-unit--3JJLa.Building_image__level-6--25z7V {
+    background-image: url(/static/images/transportation-unit-lvl2-50.e4007681.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-6--25z7V {
+        background-image: url(/static/images/transportation-unit-lvl2-75.a19f028c.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-6--25z7V {
+        background-image: url(/static/images/transportation-unit-lvl2-100.04ff9e36.png); } }
+  .Building_image__transportation-unit--3JJLa.Building_image__level-7--2MA_V {
+    background-image: url(/static/images/transportation-unit-lvl2-50.e4007681.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-7--2MA_V {
+        background-image: url(/static/images/transportation-unit-lvl2-75.a19f028c.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-7--2MA_V {
+        background-image: url(/static/images/transportation-unit-lvl2-100.04ff9e36.png); } }
+  .Building_image__transportation-unit--3JJLa.Building_image__level-8--1BN7t {
+    background-image: url(/static/images/transportation-unit-lvl2-50.e4007681.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-8--1BN7t {
+        background-image: url(/static/images/transportation-unit-lvl2-75.a19f028c.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-8--1BN7t {
+        background-image: url(/static/images/transportation-unit-lvl2-100.04ff9e36.png); } }
+  .Building_image__transportation-unit--3JJLa.Building_image__level-9--1DnZl {
+    background-image: url(/static/images/transportation-unit-lvl2-50.e4007681.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-9--1DnZl {
+        background-image: url(/static/images/transportation-unit-lvl2-75.a19f028c.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-9--1DnZl {
+        background-image: url(/static/images/transportation-unit-lvl2-100.04ff9e36.png); } }
+  .Building_image__transportation-unit--3JJLa.Building_image__level-10--3w6Mw {
+    background-image: url(/static/images/transportation-unit-lvl3-50.defafca0.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-10--3w6Mw {
+        background-image: url(/static/images/transportation-unit-lvl3-75.82d98dc0.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__transportation-unit--3JJLa.Building_image__level-10--3w6Mw {
+        background-image: url(/static/images/transportation-unit-lvl3-100.c35c5f6d.png); } }
+  .Building_image__trophy-brigade--ucSxt.Building_image__level-1--I5FJL {
+    background-image: url(/static/images/trophy-brigade-lvl1-50.0c2d9fb9.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-1--I5FJL {
+        background-image: url(/static/images/trophy-brigade-lvl1-75.5b1237ad.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-1--I5FJL {
+        background-image: url(/static/images/trophy-brigade-lvl1-100.a5ea98e2.png); } }
+  .Building_image__trophy-brigade--ucSxt.Building_image__level-2--2ZIJr {
+    background-image: url(/static/images/trophy-brigade-lvl1-50.0c2d9fb9.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-2--2ZIJr {
+        background-image: url(/static/images/trophy-brigade-lvl1-75.5b1237ad.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-2--2ZIJr {
+        background-image: url(/static/images/trophy-brigade-lvl1-100.a5ea98e2.png); } }
+  .Building_image__trophy-brigade--ucSxt.Building_image__level-3--3Ctar {
+    background-image: url(/static/images/trophy-brigade-lvl1-50.0c2d9fb9.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-3--3Ctar {
+        background-image: url(/static/images/trophy-brigade-lvl1-75.5b1237ad.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-3--3Ctar {
+        background-image: url(/static/images/trophy-brigade-lvl1-100.a5ea98e2.png); } }
+  .Building_image__trophy-brigade--ucSxt.Building_image__level-4--p9OZ6 {
+    background-image: url(/static/images/trophy-brigade-lvl1-50.0c2d9fb9.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-4--p9OZ6 {
+        background-image: url(/static/images/trophy-brigade-lvl1-75.5b1237ad.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-4--p9OZ6 {
+        background-image: url(/static/images/trophy-brigade-lvl1-100.a5ea98e2.png); } }
+  .Building_image__trophy-brigade--ucSxt.Building_image__level-5--2s4G8 {
+    background-image: url(/static/images/trophy-brigade-lvl1-50.0c2d9fb9.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-5--2s4G8 {
+        background-image: url(/static/images/trophy-brigade-lvl1-75.5b1237ad.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-5--2s4G8 {
+        background-image: url(/static/images/trophy-brigade-lvl1-100.a5ea98e2.png); } }
+  .Building_image__trophy-brigade--ucSxt.Building_image__level-6--25z7V {
+    background-image: url(/static/images/trophy-brigade-lvl2-50.5f2ac46a.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-6--25z7V {
+        background-image: url(/static/images/trophy-brigade-lvl2-75.bec16064.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-6--25z7V {
+        background-image: url(/static/images/trophy-brigade-lvl2-100.a5846809.png); } }
+  .Building_image__trophy-brigade--ucSxt.Building_image__level-7--2MA_V {
+    background-image: url(/static/images/trophy-brigade-lvl2-50.5f2ac46a.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-7--2MA_V {
+        background-image: url(/static/images/trophy-brigade-lvl2-75.bec16064.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-7--2MA_V {
+        background-image: url(/static/images/trophy-brigade-lvl2-100.a5846809.png); } }
+  .Building_image__trophy-brigade--ucSxt.Building_image__level-8--1BN7t {
+    background-image: url(/static/images/trophy-brigade-lvl2-50.5f2ac46a.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-8--1BN7t {
+        background-image: url(/static/images/trophy-brigade-lvl2-75.bec16064.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-8--1BN7t {
+        background-image: url(/static/images/trophy-brigade-lvl2-100.a5846809.png); } }
+  .Building_image__trophy-brigade--ucSxt.Building_image__level-9--1DnZl {
+    background-image: url(/static/images/trophy-brigade-lvl2-50.5f2ac46a.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-9--1DnZl {
+        background-image: url(/static/images/trophy-brigade-lvl2-75.bec16064.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-9--1DnZl {
+        background-image: url(/static/images/trophy-brigade-lvl2-100.a5846809.png); } }
+  .Building_image__trophy-brigade--ucSxt.Building_image__level-10--3w6Mw {
+    background-image: url(/static/images/trophy-brigade-lvl3-50.493fb115.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-10--3w6Mw {
+        background-image: url(/static/images/trophy-brigade-lvl3-75.94524145.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__trophy-brigade--ucSxt.Building_image__level-10--3w6Mw {
+        background-image: url(/static/images/trophy-brigade-lvl3-100.9a82bee6.png); } }
+  .Building_image__artillery-battalion--3dPhV.Building_image__level-1--I5FJL {
+    background-image: url(/static/images/artillery-battalion-lvl1-50.9bfdd12e.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-1--I5FJL {
+        background-image: url(/static/images/artillery-battalion-lvl1-75.e7295591.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-1--I5FJL {
+        background-image: url(/static/images/artillery-battalion-lvl1-100.8200bd58.png); } }
+  .Building_image__artillery-battalion--3dPhV.Building_image__level-2--2ZIJr {
+    background-image: url(/static/images/artillery-battalion-lvl1-50.9bfdd12e.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-2--2ZIJr {
+        background-image: url(/static/images/artillery-battalion-lvl1-75.e7295591.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-2--2ZIJr {
+        background-image: url(/static/images/artillery-battalion-lvl1-100.8200bd58.png); } }
+  .Building_image__artillery-battalion--3dPhV.Building_image__level-3--3Ctar {
+    background-image: url(/static/images/artillery-battalion-lvl1-50.9bfdd12e.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-3--3Ctar {
+        background-image: url(/static/images/artillery-battalion-lvl1-75.e7295591.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-3--3Ctar {
+        background-image: url(/static/images/artillery-battalion-lvl1-100.8200bd58.png); } }
+  .Building_image__artillery-battalion--3dPhV.Building_image__level-4--p9OZ6 {
+    background-image: url(/static/images/artillery-battalion-lvl1-50.9bfdd12e.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-4--p9OZ6 {
+        background-image: url(/static/images/artillery-battalion-lvl1-75.e7295591.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-4--p9OZ6 {
+        background-image: url(/static/images/artillery-battalion-lvl1-100.8200bd58.png); } }
+  .Building_image__artillery-battalion--3dPhV.Building_image__level-5--2s4G8 {
+    background-image: url(/static/images/artillery-battalion-lvl1-50.9bfdd12e.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-5--2s4G8 {
+        background-image: url(/static/images/artillery-battalion-lvl1-75.e7295591.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-5--2s4G8 {
+        background-image: url(/static/images/artillery-battalion-lvl1-100.8200bd58.png); } }
+  .Building_image__artillery-battalion--3dPhV.Building_image__level-6--25z7V {
+    background-image: url(/static/images/artillery-battalion-lvl2-50.09ccfcae.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-6--25z7V {
+        background-image: url(/static/images/artillery-battalion-lvl2-75.4bb3b4b4.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-6--25z7V {
+        background-image: url(/static/images/artillery-battalion-lvl2-100.92f7ed5d.png); } }
+  .Building_image__artillery-battalion--3dPhV.Building_image__level-7--2MA_V {
+    background-image: url(/static/images/artillery-battalion-lvl2-50.09ccfcae.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-7--2MA_V {
+        background-image: url(/static/images/artillery-battalion-lvl2-75.4bb3b4b4.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-7--2MA_V {
+        background-image: url(/static/images/artillery-battalion-lvl2-100.92f7ed5d.png); } }
+  .Building_image__artillery-battalion--3dPhV.Building_image__level-8--1BN7t {
+    background-image: url(/static/images/artillery-battalion-lvl2-50.09ccfcae.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-8--1BN7t {
+        background-image: url(/static/images/artillery-battalion-lvl2-75.4bb3b4b4.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-8--1BN7t {
+        background-image: url(/static/images/artillery-battalion-lvl2-100.92f7ed5d.png); } }
+  .Building_image__artillery-battalion--3dPhV.Building_image__level-9--1DnZl {
+    background-image: url(/static/images/artillery-battalion-lvl2-50.09ccfcae.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-9--1DnZl {
+        background-image: url(/static/images/artillery-battalion-lvl2-75.4bb3b4b4.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-9--1DnZl {
+        background-image: url(/static/images/artillery-battalion-lvl2-100.92f7ed5d.png); } }
+  .Building_image__artillery-battalion--3dPhV.Building_image__level-10--3w6Mw {
+    background-image: url(/static/images/artillery-battalion-lvl3-50.657c4dfb.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-10--3w6Mw {
+        background-image: url(/static/images/artillery-battalion-lvl3-75.344006d4.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__artillery-battalion--3dPhV.Building_image__level-10--3w6Mw {
+        background-image: url(/static/images/artillery-battalion-lvl3-100.6afe248e.png); } }
+  .Building_image__military-school--1t5U7.Building_image__level-1--I5FJL {
+    background-image: url(/static/images/military-school-lvl1-50.0acc8240.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__military-school--1t5U7.Building_image__level-1--I5FJL {
+        background-image: url(/static/images/military-school-lvl1-75.0809bb38.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__military-school--1t5U7.Building_image__level-1--I5FJL {
+        background-image: url(/static/images/military-school-lvl1-100.a443cfb5.png); } }
+  .Building_image__military-school--1t5U7.Building_image__level-2--2ZIJr {
+    background-image: url(/static/images/military-school-lvl1-50.0acc8240.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__military-school--1t5U7.Building_image__level-2--2ZIJr {
+        background-image: url(/static/images/military-school-lvl1-75.0809bb38.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__military-school--1t5U7.Building_image__level-2--2ZIJr {
+        background-image: url(/static/images/military-school-lvl1-100.a443cfb5.png); } }
+  .Building_image__military-school--1t5U7.Building_image__level-3--3Ctar {
+    background-image: url(/static/images/military-school-lvl1-50.0acc8240.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__military-school--1t5U7.Building_image__level-3--3Ctar {
+        background-image: url(/static/images/military-school-lvl1-75.0809bb38.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__military-school--1t5U7.Building_image__level-3--3Ctar {
+        background-image: url(/static/images/military-school-lvl1-100.a443cfb5.png); } }
+  .Building_image__military-school--1t5U7.Building_image__level-4--p9OZ6 {
+    background-image: url(/static/images/military-school-lvl1-50.0acc8240.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__military-school--1t5U7.Building_image__level-4--p9OZ6 {
+        background-image: url(/static/images/military-school-lvl1-75.0809bb38.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__military-school--1t5U7.Building_image__level-4--p9OZ6 {
+        background-image: url(/static/images/military-school-lvl1-100.a443cfb5.png); } }
+  .Building_image__military-school--1t5U7.Building_image__level-5--2s4G8 {
+    background-image: url(/static/images/military-school-lvl1-50.0acc8240.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__military-school--1t5U7.Building_image__level-5--2s4G8 {
+        background-image: url(/static/images/military-school-lvl1-75.0809bb38.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__military-school--1t5U7.Building_image__level-5--2s4G8 {
+        background-image: url(/static/images/military-school-lvl1-100.a443cfb5.png); } }
+  .Building_image__military-school--1t5U7.Building_image__level-6--25z7V {
+    background-image: url(/static/images/military-school-lvl2-50.950d251e.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__military-school--1t5U7.Building_image__level-6--25z7V {
+        background-image: url(/static/images/military-school-lvl2-75.ab6f917c.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__military-school--1t5U7.Building_image__level-6--25z7V {
+        background-image: url(/static/images/military-school-lvl2-100.c507d1cb.png); } }
+  .Building_image__military-school--1t5U7.Building_image__level-7--2MA_V {
+    background-image: url(/static/images/military-school-lvl2-50.950d251e.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__military-school--1t5U7.Building_image__level-7--2MA_V {
+        background-image: url(/static/images/military-school-lvl2-75.ab6f917c.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__military-school--1t5U7.Building_image__level-7--2MA_V {
+        background-image: url(/static/images/military-school-lvl2-100.c507d1cb.png); } }
+  .Building_image__military-school--1t5U7.Building_image__level-8--1BN7t {
+    background-image: url(/static/images/military-school-lvl2-50.950d251e.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__military-school--1t5U7.Building_image__level-8--1BN7t {
+        background-image: url(/static/images/military-school-lvl2-75.ab6f917c.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__military-school--1t5U7.Building_image__level-8--1BN7t {
+        background-image: url(/static/images/military-school-lvl2-100.c507d1cb.png); } }
+  .Building_image__military-school--1t5U7.Building_image__level-9--1DnZl {
+    background-image: url(/static/images/military-school-lvl2-50.950d251e.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__military-school--1t5U7.Building_image__level-9--1DnZl {
+        background-image: url(/static/images/military-school-lvl2-75.ab6f917c.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__military-school--1t5U7.Building_image__level-9--1DnZl {
+        background-image: url(/static/images/military-school-lvl2-100.c507d1cb.png); } }
+  .Building_image__military-school--1t5U7.Building_image__level-10--3w6Mw {
+    background-image: url(/static/images/military-school-lvl3-50.5e724461.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Building_image__military-school--1t5U7.Building_image__level-10--3w6Mw {
+        background-image: url(/static/images/military-school-lvl3-75.529ece26.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Building_image__military-school--1t5U7.Building_image__level-10--3w6Mw {
+        background-image: url(/static/images/military-school-lvl3-100.41d8e1d9.png); } }
+  .Building_base__completed--1-B8p .Building_image--3ZGCs {
+    opacity: 1;
+    transform: translate(0, 0); }
+  .Building_base__animateCompleted--2DqsP .Building_image--3ZGCs {
+    animation: Building_building-down--3eEgK .24s ease-in forwards; }
+
+.Building_title--3hNst {
+  z-index: 20;
+  margin-bottom: -10px; }
+  .Building_base--13H0v:hover .Building_title--3hNst {
+    color: #f5f0e5; }
+
+.Building_level--3ngLU {
+  background-image: -webkit-repeating-linear-gradient(top, #fff 0, #898676 100%);
+  /* stylelint-disable-line value-no-vendor-prefix */
+  -webkit-background-clip: text;
+  /* stylelint-disable-line property-no-vendor-prefix */
+  -webkit-text-fill-color: transparent;
+  /* stylelint-disable-line property-no-vendor-prefix */
+  color: #fff;
+  text-shadow: none; }
+
+.Building_levelShadow--am1Nz {
+  line-height: initial; }
+
+.Building_smoke--13TGZ::before, .Building_smoke--13TGZ::after {
+  width: 194px;
+  height: 108px; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .Building_smoke--13TGZ::before, .Building_smoke--13TGZ::after {
+      width: 224px;
+      height: 124px; } }
+  @media (min-width: 2200px) and (min-height: 1100px) {
+    .Building_smoke--13TGZ::before, .Building_smoke--13TGZ::after {
+      width: 298px;
+      height: 166px; } }
+
+.Building_smoke--13TGZ::before, .Building_smoke--13TGZ::after {
+  margin-top: -54px;
+  margin-left: -97px; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .Building_smoke--13TGZ::before, .Building_smoke--13TGZ::after {
+      margin-top: -62px;
+      margin-left: -112px; } }
+  @media (min-width: 2200px) and (min-height: 1100px) {
+    .Building_smoke--13TGZ::before, .Building_smoke--13TGZ::after {
+      margin-top: -83px;
+      margin-left: -149px; } }
+
+.Building_smoke--13TGZ {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 20; }
+  .Building_smoke--13TGZ::before, .Building_smoke--13TGZ::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 30;
+    background: url(/static/images/smoke.3e6b5010.png) no-repeat center/100% 100%;
+    opacity: 0;
+    content: '';
+    transform: scale(1); }
+  .Building_base__animateStarted--2Mzl5 .Building_smoke--13TGZ::before,
+  .Building_base__animateCompleted--2DqsP .Building_smoke--13TGZ::after {
+    animation: Building_smoke-in--3j86S .28s linear .14s, Building_smoke-out--2EyW6 2.02s linear .42s; }
+
+.Building_reserveProgress--1o51V {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 20;
+  width: 80px;
+  height: 80px;
+  margin-top: -40px;
+  margin-left: -40px;
+  background: url(/static/images/gears-static.51a4d4c1.png); }
+  @media (min-height: 724px) {
+    .Building_reserveProgress--1o51V {
+      background: none; } }
+  .Building_reserveProgress--1o51V::before, .Building_reserveProgress--1o51V::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 79px;
+    height: 79px; }
+    @media (min-height: 724px) {
+      .Building_reserveProgress--1o51V::before, .Building_reserveProgress--1o51V::after {
+        content: ''; } }
+  .Building_reserveProgress--1o51V::before {
+    z-index: 1;
+    background: url(/static/images/gears-shadow.9cb10c22.png); }
+  .Building_reserveProgress--1o51V::after {
+    z-index: 2;
+    background: url(/static/images/gears-animation.0b87eb1a.gif); }
+
+.Building_upgradeAvailable--rHtFn {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  margin-bottom: -16px;
+  text-align: center; }
+.Direction_base--2ua8y {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .Direction_base__A--3e63o.Direction_base__lvl1--24FZ5 {
+    background-image: url(/static/images/direction-A-lvl1-50.f016df18.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__A--3e63o.Direction_base__lvl1--24FZ5 {
+        background-image: url(/static/images/direction-A-lvl1-75.dbbe6be3.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__A--3e63o.Direction_base__lvl1--24FZ5 {
+        background-image: url(/static/images/direction-A-lvl1-100.6e37dab6.png); } }
+  .Direction_base__A--3e63o.Direction_base__lvl2--H4TrE {
+    background-image: url(/static/images/direction-A-lvl1-50.f016df18.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__A--3e63o.Direction_base__lvl2--H4TrE {
+        background-image: url(/static/images/direction-A-lvl1-75.dbbe6be3.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__A--3e63o.Direction_base__lvl2--H4TrE {
+        background-image: url(/static/images/direction-A-lvl1-100.6e37dab6.png); } }
+  .Direction_base__A--3e63o.Direction_base__lvl3--2lEKP {
+    background-image: url(/static/images/direction-A-lvl1-50.f016df18.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__A--3e63o.Direction_base__lvl3--2lEKP {
+        background-image: url(/static/images/direction-A-lvl1-75.dbbe6be3.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__A--3e63o.Direction_base__lvl3--2lEKP {
+        background-image: url(/static/images/direction-A-lvl1-100.6e37dab6.png); } }
+  .Direction_base__A--3e63o.Direction_base__lvl4--3fzrV {
+    background-image: url(/static/images/direction-A-lvl1-50.f016df18.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__A--3e63o.Direction_base__lvl4--3fzrV {
+        background-image: url(/static/images/direction-A-lvl1-75.dbbe6be3.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__A--3e63o.Direction_base__lvl4--3fzrV {
+        background-image: url(/static/images/direction-A-lvl1-100.6e37dab6.png); } }
+  .Direction_base__A--3e63o.Direction_base__lvl5--wyY7z {
+    background-image: url(/static/images/direction-A-lvl1-50.f016df18.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__A--3e63o.Direction_base__lvl5--wyY7z {
+        background-image: url(/static/images/direction-A-lvl1-75.dbbe6be3.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__A--3e63o.Direction_base__lvl5--wyY7z {
+        background-image: url(/static/images/direction-A-lvl1-100.6e37dab6.png); } }
+  .Direction_base__A--3e63o.Direction_base__lvl6--3KoMZ {
+    background-image: url(/static/images/direction-A-lvl2-50.6743fdbe.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__A--3e63o.Direction_base__lvl6--3KoMZ {
+        background-image: url(/static/images/direction-A-lvl2-75.8c639c69.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__A--3e63o.Direction_base__lvl6--3KoMZ {
+        background-image: url(/static/images/direction-A-lvl2-100.e9787cf5.png); } }
+  .Direction_base__A--3e63o.Direction_base__lvl7--1lzkZ {
+    background-image: url(/static/images/direction-A-lvl2-50.6743fdbe.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__A--3e63o.Direction_base__lvl7--1lzkZ {
+        background-image: url(/static/images/direction-A-lvl2-75.8c639c69.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__A--3e63o.Direction_base__lvl7--1lzkZ {
+        background-image: url(/static/images/direction-A-lvl2-100.e9787cf5.png); } }
+  .Direction_base__A--3e63o.Direction_base__lvl8--3YMCD {
+    background-image: url(/static/images/direction-A-lvl2-50.6743fdbe.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__A--3e63o.Direction_base__lvl8--3YMCD {
+        background-image: url(/static/images/direction-A-lvl2-75.8c639c69.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__A--3e63o.Direction_base__lvl8--3YMCD {
+        background-image: url(/static/images/direction-A-lvl2-100.e9787cf5.png); } }
+  .Direction_base__A--3e63o.Direction_base__lvl9--2ZsqE {
+    background-image: url(/static/images/direction-A-lvl2-50.6743fdbe.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__A--3e63o.Direction_base__lvl9--2ZsqE {
+        background-image: url(/static/images/direction-A-lvl2-75.8c639c69.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__A--3e63o.Direction_base__lvl9--2ZsqE {
+        background-image: url(/static/images/direction-A-lvl2-100.e9787cf5.png); } }
+  .Direction_base__A--3e63o.Direction_base__lvl10--1tRVI {
+    background-image: url(/static/images/direction-A-lvl3-50.5d0e8de5.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__A--3e63o.Direction_base__lvl10--1tRVI {
+        background-image: url(/static/images/direction-A-lvl3-75.f4935061.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__A--3e63o.Direction_base__lvl10--1tRVI {
+        background-image: url(/static/images/direction-A-lvl3-100.c30c6409.png); } }
+  .Direction_base__B--1-eRz.Direction_base__lvl1--24FZ5 {
+    background-image: url(/static/images/direction-B-lvl1-50.78b8b4ac.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl1--24FZ5 {
+        background-image: url(/static/images/direction-B-lvl1-75.9273f623.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl1--24FZ5 {
+        background-image: url(/static/images/direction-B-lvl1-100.db5bd266.png); } }
+  .Direction_base__B--1-eRz.Direction_base__lvl2--H4TrE {
+    background-image: url(/static/images/direction-B-lvl1-50.78b8b4ac.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl2--H4TrE {
+        background-image: url(/static/images/direction-B-lvl1-75.9273f623.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl2--H4TrE {
+        background-image: url(/static/images/direction-B-lvl1-100.db5bd266.png); } }
+  .Direction_base__B--1-eRz.Direction_base__lvl3--2lEKP {
+    background-image: url(/static/images/direction-B-lvl1-50.78b8b4ac.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl3--2lEKP {
+        background-image: url(/static/images/direction-B-lvl1-75.9273f623.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl3--2lEKP {
+        background-image: url(/static/images/direction-B-lvl1-100.db5bd266.png); } }
+  .Direction_base__B--1-eRz.Direction_base__lvl4--3fzrV {
+    background-image: url(/static/images/direction-B-lvl1-50.78b8b4ac.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl4--3fzrV {
+        background-image: url(/static/images/direction-B-lvl1-75.9273f623.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl4--3fzrV {
+        background-image: url(/static/images/direction-B-lvl1-100.db5bd266.png); } }
+  .Direction_base__B--1-eRz.Direction_base__lvl5--wyY7z {
+    background-image: url(/static/images/direction-B-lvl1-50.78b8b4ac.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl5--wyY7z {
+        background-image: url(/static/images/direction-B-lvl1-75.9273f623.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl5--wyY7z {
+        background-image: url(/static/images/direction-B-lvl1-100.db5bd266.png); } }
+  .Direction_base__B--1-eRz.Direction_base__lvl6--3KoMZ {
+    background-image: url(/static/images/direction-B-lvl2-50.ea2dd5fc.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl6--3KoMZ {
+        background-image: url(/static/images/direction-B-lvl2-75.a59dae42.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl6--3KoMZ {
+        background-image: url(/static/images/direction-B-lvl2-100.16196536.png); } }
+  .Direction_base__B--1-eRz.Direction_base__lvl7--1lzkZ {
+    background-image: url(/static/images/direction-B-lvl2-50.ea2dd5fc.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl7--1lzkZ {
+        background-image: url(/static/images/direction-B-lvl2-75.a59dae42.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl7--1lzkZ {
+        background-image: url(/static/images/direction-B-lvl2-100.16196536.png); } }
+  .Direction_base__B--1-eRz.Direction_base__lvl8--3YMCD {
+    background-image: url(/static/images/direction-B-lvl2-50.ea2dd5fc.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl8--3YMCD {
+        background-image: url(/static/images/direction-B-lvl2-75.a59dae42.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl8--3YMCD {
+        background-image: url(/static/images/direction-B-lvl2-100.16196536.png); } }
+  .Direction_base__B--1-eRz.Direction_base__lvl9--2ZsqE {
+    background-image: url(/static/images/direction-B-lvl2-50.ea2dd5fc.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl9--2ZsqE {
+        background-image: url(/static/images/direction-B-lvl2-75.a59dae42.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl9--2ZsqE {
+        background-image: url(/static/images/direction-B-lvl2-100.16196536.png); } }
+  .Direction_base__B--1-eRz.Direction_base__lvl10--1tRVI {
+    background-image: url(/static/images/direction-B-lvl3-50.ee45d46a.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl10--1tRVI {
+        background-image: url(/static/images/direction-B-lvl3-75.195f3567.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__B--1-eRz.Direction_base__lvl10--1tRVI {
+        background-image: url(/static/images/direction-B-lvl3-100.619daa2a.png); } }
+  .Direction_base__C--1YmPR.Direction_base__lvl1--24FZ5 {
+    background-image: url(/static/images/direction-C-lvl1-50.86c5cfa3.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl1--24FZ5 {
+        background-image: url(/static/images/direction-C-lvl1-75.14593e2c.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl1--24FZ5 {
+        background-image: url(/static/images/direction-C-lvl1-100.65b22af1.png); } }
+  .Direction_base__C--1YmPR.Direction_base__lvl2--H4TrE {
+    background-image: url(/static/images/direction-C-lvl1-50.86c5cfa3.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl2--H4TrE {
+        background-image: url(/static/images/direction-C-lvl1-75.14593e2c.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl2--H4TrE {
+        background-image: url(/static/images/direction-C-lvl1-100.65b22af1.png); } }
+  .Direction_base__C--1YmPR.Direction_base__lvl3--2lEKP {
+    background-image: url(/static/images/direction-C-lvl1-50.86c5cfa3.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl3--2lEKP {
+        background-image: url(/static/images/direction-C-lvl1-75.14593e2c.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl3--2lEKP {
+        background-image: url(/static/images/direction-C-lvl1-100.65b22af1.png); } }
+  .Direction_base__C--1YmPR.Direction_base__lvl4--3fzrV {
+    background-image: url(/static/images/direction-C-lvl1-50.86c5cfa3.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl4--3fzrV {
+        background-image: url(/static/images/direction-C-lvl1-75.14593e2c.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl4--3fzrV {
+        background-image: url(/static/images/direction-C-lvl1-100.65b22af1.png); } }
+  .Direction_base__C--1YmPR.Direction_base__lvl5--wyY7z {
+    background-image: url(/static/images/direction-C-lvl1-50.86c5cfa3.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl5--wyY7z {
+        background-image: url(/static/images/direction-C-lvl1-75.14593e2c.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl5--wyY7z {
+        background-image: url(/static/images/direction-C-lvl1-100.65b22af1.png); } }
+  .Direction_base__C--1YmPR.Direction_base__lvl6--3KoMZ {
+    background-image: url(/static/images/direction-C-lvl2-50.3c531d5b.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl6--3KoMZ {
+        background-image: url(/static/images/direction-C-lvl2-75.e967ef1e.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl6--3KoMZ {
+        background-image: url(/static/images/direction-C-lvl2-100.fdaf98bb.png); } }
+  .Direction_base__C--1YmPR.Direction_base__lvl7--1lzkZ {
+    background-image: url(/static/images/direction-C-lvl2-50.3c531d5b.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl7--1lzkZ {
+        background-image: url(/static/images/direction-C-lvl2-75.e967ef1e.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl7--1lzkZ {
+        background-image: url(/static/images/direction-C-lvl2-100.fdaf98bb.png); } }
+  .Direction_base__C--1YmPR.Direction_base__lvl8--3YMCD {
+    background-image: url(/static/images/direction-C-lvl2-50.3c531d5b.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl8--3YMCD {
+        background-image: url(/static/images/direction-C-lvl2-75.e967ef1e.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl8--3YMCD {
+        background-image: url(/static/images/direction-C-lvl2-100.fdaf98bb.png); } }
+  .Direction_base__C--1YmPR.Direction_base__lvl9--2ZsqE {
+    background-image: url(/static/images/direction-C-lvl2-50.3c531d5b.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl9--2ZsqE {
+        background-image: url(/static/images/direction-C-lvl2-75.e967ef1e.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl9--2ZsqE {
+        background-image: url(/static/images/direction-C-lvl2-100.fdaf98bb.png); } }
+  .Direction_base__C--1YmPR.Direction_base__lvl10--1tRVI {
+    background-image: url(/static/images/direction-C-lvl3-50.1b91c61a.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl10--1tRVI {
+        background-image: url(/static/images/direction-C-lvl3-75.60d4b9c3.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__C--1YmPR.Direction_base__lvl10--1tRVI {
+        background-image: url(/static/images/direction-C-lvl3-100.3d38f3df.png); } }
+  .Direction_base__D--BGRwc.Direction_base__lvl1--24FZ5 {
+    background-image: url(/static/images/direction-D-lvl1-50.24be5f12.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl1--24FZ5 {
+        background-image: url(/static/images/direction-D-lvl1-75.11d144bb.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl1--24FZ5 {
+        background-image: url(/static/images/direction-D-lvl1-100.8a2c730c.png); } }
+  .Direction_base__D--BGRwc.Direction_base__lvl2--H4TrE {
+    background-image: url(/static/images/direction-D-lvl1-50.24be5f12.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl2--H4TrE {
+        background-image: url(/static/images/direction-D-lvl1-75.11d144bb.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl2--H4TrE {
+        background-image: url(/static/images/direction-D-lvl1-100.8a2c730c.png); } }
+  .Direction_base__D--BGRwc.Direction_base__lvl3--2lEKP {
+    background-image: url(/static/images/direction-D-lvl1-50.24be5f12.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl3--2lEKP {
+        background-image: url(/static/images/direction-D-lvl1-75.11d144bb.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl3--2lEKP {
+        background-image: url(/static/images/direction-D-lvl1-100.8a2c730c.png); } }
+  .Direction_base__D--BGRwc.Direction_base__lvl4--3fzrV {
+    background-image: url(/static/images/direction-D-lvl1-50.24be5f12.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl4--3fzrV {
+        background-image: url(/static/images/direction-D-lvl1-75.11d144bb.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl4--3fzrV {
+        background-image: url(/static/images/direction-D-lvl1-100.8a2c730c.png); } }
+  .Direction_base__D--BGRwc.Direction_base__lvl5--wyY7z {
+    background-image: url(/static/images/direction-D-lvl1-50.24be5f12.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl5--wyY7z {
+        background-image: url(/static/images/direction-D-lvl1-75.11d144bb.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl5--wyY7z {
+        background-image: url(/static/images/direction-D-lvl1-100.8a2c730c.png); } }
+  .Direction_base__D--BGRwc.Direction_base__lvl6--3KoMZ {
+    background-image: url(/static/images/direction-D-lvl2-50.e4a04d23.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl6--3KoMZ {
+        background-image: url(/static/images/direction-D-lvl2-75.2fca3866.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl6--3KoMZ {
+        background-image: url(/static/images/direction-D-lvl2-100.559a472a.png); } }
+  .Direction_base__D--BGRwc.Direction_base__lvl7--1lzkZ {
+    background-image: url(/static/images/direction-D-lvl2-50.e4a04d23.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl7--1lzkZ {
+        background-image: url(/static/images/direction-D-lvl2-75.2fca3866.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl7--1lzkZ {
+        background-image: url(/static/images/direction-D-lvl2-100.559a472a.png); } }
+  .Direction_base__D--BGRwc.Direction_base__lvl8--3YMCD {
+    background-image: url(/static/images/direction-D-lvl2-50.e4a04d23.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl8--3YMCD {
+        background-image: url(/static/images/direction-D-lvl2-75.2fca3866.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl8--3YMCD {
+        background-image: url(/static/images/direction-D-lvl2-100.559a472a.png); } }
+  .Direction_base__D--BGRwc.Direction_base__lvl9--2ZsqE {
+    background-image: url(/static/images/direction-D-lvl2-50.e4a04d23.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl9--2ZsqE {
+        background-image: url(/static/images/direction-D-lvl2-75.2fca3866.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl9--2ZsqE {
+        background-image: url(/static/images/direction-D-lvl2-100.559a472a.png); } }
+  .Direction_base__D--BGRwc.Direction_base__lvl10--1tRVI {
+    background-image: url(/static/images/direction-D-lvl3-50.3b63907c.png); }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl10--1tRVI {
+        background-image: url(/static/images/direction-D-lvl3-75.0dbc5cb0.png); } }
+    @media (min-width: 2200px) and (min-height: 1100px) {
+      .Direction_base__D--BGRwc.Direction_base__lvl10--1tRVI {
+        background-image: url(/static/images/direction-D-lvl3-100.a2b096e6.png); } }
+.StatsTable-tooltip_table--2eQbl {
+  position: relative;
+  z-index: 15;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  width: 100%; }
+
+.StatsTable-tooltip_thead--3alLz {
+  display: block; }
+
+.StatsTable-tooltip_tbody--tfOV9 {
+  display: block;
+  padding: 8px 0; }
+
+.StatsTable-tooltip_tr--2TPSM {
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: center;
+  align-items: stretch;
+  justify-content: space-between; }
+
+.StatsTable-tooltip_tr__selected--3GvG9 {
+  position: relative;
+  box-shadow: inset 0 0 0 1px rgba(255, 204, 102, 0.05), inset 0 0 7px rgba(255, 170, 0, 0.27), 0 0 0 1px rgba(0, 0, 0, 0.17);
+  background: rgba(255, 153, 51, 0.11); }
+  .StatsTable-tooltip_tr__selected--3GvG9::before, .StatsTable-tooltip_tr__selected--3GvG9::after {
+    position: absolute;
+    top: -2px;
+    z-index: 0;
+    width: 118px;
+    height: 37px;
+    content: ''; }
+  .StatsTable-tooltip_tr__selected--3GvG9::before {
+    left: -12px;
+    background: url(/static/images/shine-left.833e29af.png); }
+  .StatsTable-tooltip_tr__selected--3GvG9::after {
+    right: -14px;
+    background: url(/static/images/shine-right.dcb02896.png); }
+
+.StatsTable-tooltip_tr__clickable--eD8WX {
+  cursor: pointer; }
+
+.StatsTable-tooltip_tr__hoverable--2ejz6 {
+  cursor: default; }
+
+.StatsTable-tooltip_th--1Anh3 {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5px 15px;
+  color: #595950;
+  font: 400 14px/18px "Roboto Condensed", sans-serif; }
+
+.StatsTable-tooltip_td--28q_I {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px 15px 7px;
+  overflow: hidden;
+  color: #8c8c7c;
+  font: 400 14px/18px "Roboto Condensed", sans-serif;
+  white-space: nowrap; }
+
+.StatsTable-tooltip_th__basis--3LE7l,
+.StatsTable-tooltip_td__basis--2d1nK {
+  flex: 2 0 0%;
+  justify-content: flex-start; }
+
+.StatsTable-tooltip_th__left--2d-bk,
+.StatsTable-tooltip_td__left--1D_ct {
+  flex: 1 1 0%;
+  justify-content: flex-start;
+  padding-right: 25px;
+  text-align: left; }
+
+.StatsTable-tooltip_th__center--1BQZI,
+.StatsTable-tooltip_td__center--2evWB {
+  flex: 1 1 0%;
+  justify-content: center;
+  text-align: center; }
+
+.StatsTable-tooltip_th__right--3vui8,
+.StatsTable-tooltip_td__right--1Ttvk {
+  flex: 1 1 0%;
+  justify-content: flex-end;
+  padding-left: 25px;
+  text-align: right; }
+
+.StatsTable-tooltip_th__top--39TOG, .StatsTable-tooltip_td__top--MgKOW {
+  align-items: flex-start; }
+
+.StatsTable-tooltip_td__span4--1CSD3 {
+  flex: 4 1 0%;
+  padding: 0; }
+
+.StatsTable-tooltip_base__debug--37Upv .StatsTable-tooltip_th--1Anh3,
+.StatsTable-tooltip_base__debug--37Upv .StatsTable-tooltip_td--28q_I {
+  outline: 1px solid #f00; }
+
+.StatsTable-tooltip_spacer--3RQ6T {
+  flex: 0 0 52px; }
+
+.StatsTable-tooltip_tbody--tfOV9 {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.StatsTable-tooltip_th--1Anh3,
+.StatsTable-tooltip_td--28q_I {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  white-space: normal; }
+  .StatsTable-tooltip_th__title--1HMTj,
+  .StatsTable-tooltip_td__title--TwRng {
+    flex: 0 0 160px;
+    padding-right: 10px;
+    padding-left: 0; }
+  .StatsTable-tooltip_th__values--ikZvs,
+  .StatsTable-tooltip_td__values--3mfjS {
+    padding-right: 0;
+    padding-left: 0; }
+    .StatsTable-tooltip_th__values--ikZvs + .StatsTable-tooltip_th__values--ikZvs,
+    .StatsTable-tooltip_td__values--3mfjS + .StatsTable-tooltip_th__values--ikZvs, .StatsTable-tooltip_th__values--ikZvs +
+    .StatsTable-tooltip_td__values--3mfjS,
+    .StatsTable-tooltip_td__values--3mfjS +
+    .StatsTable-tooltip_td__values--3mfjS {
+      padding-right: 0;
+      padding-left: 25px; }
+
+.StatsTable-tooltip_th__title--1HMTj {
+  color: #e9e2bf;
+  font-weight: 700;
+  font-size: 15px; }
+
+.StatsTable-tooltip_th__values--ikZvs {
+  color: #595950; }
+
+.StatsTable-tooltip_td__values--3mfjS {
+  color: #fefeec; }
+
+.StatsTable-tooltip_noBattlesTitle--1K2V2 {
+  margin: 0;
+  padding: 4px 0 0;
+  color: #e9e2bf;
+  font-size: 15px;
+  font-weight: 700; }
+
+.StatsTable-tooltip_noBattles--rrueN {
+  margin: 3px 0 0;
+  color: #595950; }
+
+.StatsTable-tooltip_divider--cxePT {
+  position: relative;
+  z-index: 5;
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 15px 0; }
+
+.StatsTable-tooltip_title--1pHG8 {
+  margin: 0 0 15px;
+  color: #e9e2bf;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 17px; }
+
+.StatsTable-tooltip_divider--cxePT {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABCAYAAAAb4BS0AAAAD0lEQVQImWPwcbeZwQAFAA5aAWhFs7YXAAAAAElFTkSuQmCC);
+  -webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0, 0, 0, 0)), color-stop(0.1, rgba(0, 0, 0, 0.1)), color-stop(0.25, rgba(0, 0, 0, 0.4)), color-stop(0.5, black), color-stop(0.75, rgba(0, 0, 0, 0.4)), color-stop(0.9, rgba(0, 0, 0, 0.1)), color-stop(1, rgba(0, 0, 0, 0)));
+          mask-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0, 0, 0, 0)), color-stop(0.1, rgba(0, 0, 0, 0.1)), color-stop(0.25, rgba(0, 0, 0, 0.4)), color-stop(0.5, black), color-stop(0.75, rgba(0, 0, 0, 0.4)), color-stop(0.9, rgba(0, 0, 0, 0.1)), color-stop(1, rgba(0, 0, 0, 0))); }
+.StatsTable-external_table--2mvHd {
+  position: relative;
+  z-index: 15;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  width: 100%; }
+
+.StatsTable-external_thead--Ut-LY {
+  display: block; }
+
+.StatsTable-external_tbody--2TBVU {
+  display: block;
+  padding: 8px 0; }
+
+.StatsTable-external_tr--3XrTO {
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: center;
+  align-items: stretch;
+  justify-content: space-between; }
+
+.StatsTable-external_tr__selected--K764c {
+  position: relative;
+  box-shadow: inset 0 0 0 1px rgba(255, 204, 102, 0.05), inset 0 0 7px rgba(255, 170, 0, 0.27), 0 0 0 1px rgba(0, 0, 0, 0.17);
+  background: rgba(255, 153, 51, 0.11); }
+  .StatsTable-external_tr__selected--K764c::before, .StatsTable-external_tr__selected--K764c::after {
+    position: absolute;
+    top: -2px;
+    z-index: 0;
+    width: 118px;
+    height: 37px;
+    content: ''; }
+  .StatsTable-external_tr__selected--K764c::before {
+    left: -12px;
+    background: url(/static/images/shine-left.833e29af.png); }
+  .StatsTable-external_tr__selected--K764c::after {
+    right: -14px;
+    background: url(/static/images/shine-right.dcb02896.png); }
+
+.StatsTable-external_tr__clickable--19nwo {
+  cursor: pointer; }
+
+.StatsTable-external_tr__hoverable--1-nBV {
+  cursor: default; }
+
+.StatsTable-external_th--1B4Yw {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5px 15px;
+  color: #595950;
+  font: 400 14px/18px "Roboto Condensed", sans-serif; }
+
+.StatsTable-external_td--hVkHu {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px 15px 7px;
+  overflow: hidden;
+  color: #8c8c7c;
+  font: 400 14px/18px "Roboto Condensed", sans-serif;
+  white-space: nowrap; }
+
+.StatsTable-external_th__basis--3c1HO,
+.StatsTable-external_td__basis--3nXh1 {
+  flex: 2 0 0%;
+  justify-content: flex-start; }
+
+.StatsTable-external_th__left--2okl8,
+.StatsTable-external_td__left--KG2R6 {
+  flex: 1 1 0%;
+  justify-content: flex-start;
+  padding-right: 25px;
+  text-align: left; }
+
+.StatsTable-external_th__center--o_1Rf,
+.StatsTable-external_td__center--bXHjl {
+  flex: 1 1 0%;
+  justify-content: center;
+  text-align: center; }
+
+.StatsTable-external_th__right--305G3,
+.StatsTable-external_td__right--3VRe2 {
+  flex: 1 1 0%;
+  justify-content: flex-end;
+  padding-left: 25px;
+  text-align: right; }
+
+.StatsTable-external_th__top--2Gf2l, .StatsTable-external_td__top--2ChQj {
+  align-items: flex-start; }
+
+.StatsTable-external_td__span4--2riK_ {
+  flex: 4 1 0%;
+  padding: 0; }
+
+.StatsTable-external_base__debug--352yg .StatsTable-external_th--1B4Yw,
+.StatsTable-external_base__debug--352yg .StatsTable-external_td--hVkHu {
+  outline: 1px solid #f00; }
+
+.StatsTable-external_spacer--2GVod {
+  flex: 0 0 52px; }
+
+.StatsTable-external_tbody--2TBVU {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.StatsTable-external_th--1B4Yw,
+.StatsTable-external_td--hVkHu {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  white-space: normal; }
+  .StatsTable-external_th__title--aB27_,
+  .StatsTable-external_td__title--3dXIA {
+    flex: 0 0 160px;
+    padding-right: 10px;
+    padding-left: 0; }
+  .StatsTable-external_th__values--oSW7-,
+  .StatsTable-external_td__values--9eVTk {
+    padding-right: 0;
+    padding-left: 0; }
+    .StatsTable-external_th__values--oSW7- + .StatsTable-external_th__values--oSW7-,
+    .StatsTable-external_td__values--9eVTk + .StatsTable-external_th__values--oSW7-, .StatsTable-external_th__values--oSW7- +
+    .StatsTable-external_td__values--9eVTk,
+    .StatsTable-external_td__values--9eVTk +
+    .StatsTable-external_td__values--9eVTk {
+      padding-right: 0;
+      padding-left: 25px; }
+
+.StatsTable-external_th__title--aB27_ {
+  color: #e9e2bf;
+  font-weight: 700;
+  font-size: 15px; }
+
+.StatsTable-external_th__values--oSW7- {
+  color: #595950; }
+
+.StatsTable-external_td__values--9eVTk {
+  color: #fefeec; }
+
+.StatsTable-external_noBattlesTitle--2rx-1 {
+  margin: 0;
+  padding: 4px 0 0;
+  color: #e9e2bf;
+  font-size: 15px;
+  font-weight: 700; }
+
+.StatsTable-external_noBattles--1iql_ {
+  margin: 3px 0 0;
+  color: #595950; }
+
+.StatsTable-external_divider--2Ih5- {
+  position: relative;
+  z-index: 5;
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 15px 0; }
+
+.StatsTable-external_title--jnvUq {
+  margin: 0 0 15px;
+  color: #e9e2bf;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 17px; }
+
+.StatsTable-external_thead--Ut-LY::before, .StatsTable-external_noBattlesTitle--2rx-1::before, .StatsTable-external_thead--Ut-LY::after, .StatsTable-external_noBattlesTitle--2rx-1::after {
+  position: absolute;
+  bottom: -80px;
+  z-index: 0;
+  height: 160px;
+  background-image: url(/static/images/divider-shadowed-small.e0cc9712.png);
+  background-repeat: no-repeat;
+  content: '';
+  pointer-events: none; }
+
+.StatsTable-external_thead--Ut-LY::before, .StatsTable-external_noBattlesTitle--2rx-1::before {
+  right: 50%;
+  left: 0;
+  background-position: left; }
+
+.StatsTable-external_thead--Ut-LY::after, .StatsTable-external_noBattlesTitle--2rx-1::after {
+  right: 0;
+  left: 50%;
+  background-position: right; }
+
+.StatsTable-external_title--jnvUq {
+  margin-bottom: 7px;
+  font-weight: 400; }
+
+.StatsTable-external_table--2mvHd:last-child {
+  margin-top: 30px; }
+
+.StatsTable-external_thead--Ut-LY {
+  position: relative; }
+
+.StatsTable-external_tr--3XrTO {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABCAYAAAAb4BS0AAAAD0lEQVQImWPwcbeZwQAFAA5aAWhFs7YXAAAAAElFTkSuQmCC) top repeat-x; }
+  .StatsTable-external_tr--3XrTO:first-child {
+    background: none; }
+
+.StatsTable-external_th--1B4Yw {
+  position: relative;
+  z-index: 10;
+  padding-bottom: 6px;
+  font-weight: 400; }
+
+.StatsTable-external_td--hVkHu {
+  padding-top: 9px;
+  padding-bottom: 9px; }
+
+.StatsTable-external_noBattlesTitle--2rx-1 {
+  position: relative;
+  padding-bottom: 6px; }
+
+.StatsTable-external_noBattles--1iql_ {
+  margin-top: 13px; }
+
+.StatsTable-external_description--3iD9x {
+  margin: 0; }
+
+.StatsTable-external_descriptionValue--SY1a3 {
+  color: #fefeec; }
+.Statistics_base--2G4VD {
+  position: relative;
+  z-index: 100;
+  max-width: 1260px;
+  margin: -215px auto 0;
+  padding: 0 30px; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .Statistics_base--2G4VD {
+      margin-top: -285px; } }
+  @media (min-width: 2200px) and (min-height: 1100px) {
+    .Statistics_base--2G4VD {
+      margin-top: -366px; } }
+
+.Statistics_divisions--3JaxQ {
+  margin: 12px 0 0;
+  text-align: center; }
+
+.Statistics_divisionItem--1JzlE {
+  display: inline-block;
+  margin: 0 0 0 80px; }
+  .Statistics_divisionItem--1JzlE:first-child {
+    margin-left: 0; }
+
+.Statistics_division--30UEG {
+  position: relative;
+  padding: 0 0 0 52px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 28px; }
+  .Statistics_division--30UEG::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 52px;
+    height: 52px;
+    margin: -26px 0 0;
+    background-repeat: no-repeat;
+    content: ''; }
+  .Statistics_division__6--2EK2x::before {
+    background-image: url(/static/images/elo-icon-6.8a0aea9c.png); }
+  .Statistics_division__8--2osu-::before {
+    background-image: url(/static/images/elo-icon-8.64e8883e.png); }
+  .Statistics_division__10--YMCsO::before {
+    background-image: url(/static/images/elo-icon-10.18d12c83.png); }
+
+.Statistics_tables--2ssHo {
+  display: flex;
+  justify-content: space-between;
+  margin: 66px 0 0; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .Statistics_tables--2ssHo {
+      margin-top: 96px; } }
+
+.Statistics_table--1Rdfo {
+  flex: 1 0 0%;
+  margin: 0 0 0 45px; }
+  @media (min-width: 1600px) and (min-height: 900px) {
+    .Statistics_table--1Rdfo {
+      margin-left: 60px; } }
+  .Statistics_table--1Rdfo:first-child {
+    margin-left: 0; }
+    @media (min-width: 1600px) and (min-height: 900px) {
+      .Statistics_table--1Rdfo:first-child {
+        margin-left: 0; } }
+.StrongholdExternal_html--2obGd {
+  height: auto; }
+
+.StrongholdExternal_body--3GorQ {
+  height: auto;
+  overflow-y: auto; }
+
+.StrongholdExternal_base--13wAF {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  min-width: 947px;
+  min-height: 820px; }
+
+/*
+    Minimal heights for iframe in Clan Portal by media queries:
+
+    default (minimal): 1080px,
+    mq-medium: 1450px,
+    mq-large: 1780px
+*/
+
+/*# sourceMappingURL=external.9d8ad9ae229ae219fad59f00e089afa3.css.map*/
