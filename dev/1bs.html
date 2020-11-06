@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+     <head>
+          <meta charset="UTF-8">
+          <meta content="width=device-width, initial-scale=1.0" name="viewport">
+          <meta name="description" content="1BS - Klan World of Tanks">
+          <meta name="subject" content="strona">
+          <meta name="copyright" content="AxQus#8693">
+          <meta name="language" content="PL">
+          <meta name="robots" content="index, follow">
+          <meta name="abstract" content="1BS - Klan World of Tanks">
+          <meta name="Classification" content="Game">
+          <meta name="author" content="AxQus#8693">
+          <meta name="designer" content="AxQus#8693">
+          <meta name="owner" content="AxQus#8693">
+          <meta name="url" content="https://gamzen.tk">
+          <meta name="indefifer-URL" content="https://gamzen.tk">
+          <meta name="pagename" content=" GamZen.tk">
+          <meta name="keywords" content="minecraft, pasja, gry">
+          <meta name="theme-color" content="#101927">
+          <meta property="og:description" content="1BS - Klan World of Tanks">
+          <meta property="og:image" content="/img/logo.png" />
+          <meta property="og:site_name" content="1BS - Klan World of Tanks">
+          <meta property="og:title" content="1BS - Klan World of Tanks">
+          <meta property="og:type" content="website">
+          <meta property="og:url" content="https://gamzen.tk/strony/1bs.html">
+          <meta property="og:locale" content="pl_PL">
+          <link rel="shortcut icon" href="img/fav.ico" />
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+          <title>1BS - Klan World of Tanks</title>
+
+            <!-- Icon -->
+          <link rel="icon" href="favicon.ico" type="img/icon">
+          <link rel="shortcut icon" href="favicon.ico" type="img/icon">
+
+            <!-- Style Css -->
+          <!-- <link rel="stylesheet" type="text/css" href="style/axedark.css"> -->
+          <link rel="stylesheet" href="1bs/style/1bs.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+            <!-- Arc Widget !-->
+          <script async src="https://arc.io/widget.js#iSn1rDn4"></script>
+    
+      </head>
+      <body class="banner-area">
+
+        <section id="navbar-main">
+          <nav class="navbar navbar-expand-lg navbar-light"">
+            <div class="content">
+              <div class="logo">
+                <a class="navbar-brand" href="#">
+                  <img class="logo" src="1bs/img/logo.png">
+                </a>
+              </div>
+              <ul class="menu-list">
+                <div class="icon cancel-btn">
+                  <i class="fas fa-times"></i>
+                </div>
+                  <li>
+                    <a href="#dom">DOM</a>
+                  </li>
+                  <li>
+                    <a href="#nas">O NAS</a>
+                  </li>
+                  <li>
+                    <a href="#dolacz">DOŁĄCZ</a>
+                  </li>
+                  <li>
+                    <a href="#mapa">MAPA</a>
+                    <ul class="nav-mapa">
+                      <li><a href="#mapa">MAPA INFO</a></li>
+                      <li><a href="./1bs/mapa">MAPA STRONA</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#kontakt">KONTAKT</a></li>
+              </ul>
+              <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+              </div>
+            </div>
+          </nav>
+        </section>
+        
+          <!-- Section DOM  -->
+        <section class="dom">
+          <div class="wdiscord">
+            <iframe src="https://discord.com/widget?id=749302052068393041&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+          </div>
+        </section>
+
+        <section class="s-nas">
+          <div class="nas">
+            <div class="content">
+              <p>TEST</p>
+              <div class="title">TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST </div>
+              <p>TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST.</p>
+              <p>TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST.</p>
+              <p>TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST.</p>
+              <p>TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST.</p>
+              <p>TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST.</p>
+            </div>
+          </div>
+        </section>
+  
+
+            <!-- Script -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+          <script src="https://kit.fontawesome.com/a7d07a391c.js" crossorigin="anonymous"></script> 
+          <script src="1bs/js/jquery.backstretch.min.js"></script> 
+          <script src="1bs/js/main.js"></script>
+
+
+
+
+
+          <script>
+            const body = document.querySelector("body");
+            const navbar = document.querySelector(".navbar");
+            const menuBtn = document.querySelector(".menu-btn");
+            const cancelBtn = document.querySelector(".cancel-btn");
+            menuBtn.onclick = ()=>{
+              navbar.classList.add("show");
+              menuBtn.classList.add("hide");
+              body.classList.add("disabled");
+            }
+            cancelBtn.onclick = ()=>{
+              body.classList.remove("disabled");
+              navbar.classList.remove("show");
+              menuBtn.classList.remove("hide");
+            }
+            window.onscroll = ()=>{
+              this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+            }
+          </script>
+     </body>
+</html>

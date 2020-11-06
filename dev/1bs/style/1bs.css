@@ -1,0 +1,316 @@
+/*-------------------------------------------------------------------------------
+  Ogólne
+-------------------------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+/*  background-image: linear-gradient(to right, #0f6299, #575a5a); */
+  height: 175vh;
+}
+
+
+
+/*-------------------------------------------------------------------------------
+  Navbar - Button 
+-------------------------------------------------------------------------------*/
+.logo {
+  left: 30px;
+}
+
+
+
+/*-------------------------------------------------------------------------------
+  Navbar - Menu
+-------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::selection{
+  background: rgb(0,123,255,0.3);
+}
+.content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 30px;
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  padding: 25px 0;
+  transition: all 0.3s ease;
+}
+.navbar.sticky{
+  background: #1b1b1b;
+  padding: 10px 0;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+}
+.navbar .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a img{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.navbar .menu-list{
+  display: inline-flex;
+}
+
+.menu-list li{
+  list-style: none;
+}
+.menu-list li a{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.menu-list li a:hover{
+  color: #007bff;
+}
+/*.banner{
+  background: url("banner.jpg") no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}*/
+.icon{
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+.menu-list .cancel-btn{
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+@media (max-width: 1230px) {
+  .content{
+    padding: 0 60px;
+  }
+}
+@media (max-width: 1100px) {
+  .content{
+    padding: 0 40px;
+  }
+}
+@media (max-width: 900px) {
+  .content{
+    padding: 0 30px;
+  }
+}
+@media (max-width: 868px) {
+  body.disabled{
+    overflow: hidden;
+  }
+  .icon{
+    display: block;
+  }
+  .icon.hide{
+    display: none;
+  }
+  .navbar .menu-list{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    left: -100%;
+    top: 0px;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    background: #222;
+    transition: all 0.3s ease;
+  }
+  .navbar.show .menu-list{
+    left: 0%;
+  }
+  .navbar .menu-list li{
+    margin-top: 45px;
+  }
+  .navbar .menu-list li a{
+    font-size: 23px;
+    margin-left: -100%;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .navbar.show .menu-list li a{
+    margin-left: 0px;
+  }
+}
+@media (max-width: 380px) {
+  .navbar .logo a{
+    font-size: 27px;
+  }
+}
+
+/*-------------------------------------------------------------------------------
+  MAPA
+-------------------------------------------------------------------------------*/
+#navbar {
+  position: static;
+  top: 0;
+z-index: 10;
+right: 50px;
+}
+
+.navbar {
+/*  background-image: linear-gradient(to right, #0f6299, #575a5a); */
+  padding: 0;
+  text-align: center;
+  top: 10px;
+  margin: 10px;
+}
+
+.navbar-bard img {
+  height: 10px;
+  padding-left: 10px;
+  margin-left: 30px;
+}
+
+.navbar-nav li {
+padding: 0 0px;
+text-align: center;
+}
+
+.navbar-nav li a {
+  color: #fff;
+  font-weight: 600;
+}
+
+ul {
+margin: 0px;
+padding: 0px;
+list-style: none;
+font-family: arial;
+}
+ 
+ul li {
+float: left;
+width: 150px;
+height: 40px;
+opacity: .8;
+line-height: 25px;
+right: 60;
+left: 40;
+font-size: 15px;
+}
+ 
+.nav-mapa {
+top: 30px;
+text-align: center;
+font-size: 20px;
+line-height: 45px;
+}
+
+ 
+ul li a {
+text-decoration: none;
+color: white;
+display: block;
+}
+ 
+ul li a:hover {
+background-color: gray;
+}
+ 
+ul li ul li{
+display: none;
+}
+ 
+ul li:hover ul li {
+display: block;
+}
+
+/*-------------------------------------------------------------------------------
+  DOM - Discord
+-------------------------------------------------------------------------------*/
+.wdiscord {
+	position: absolute;
+	right: 30px;
+	top: 140px;
+	opacity: 80%;
+}
+
+
+/*-------------------------------------------------------------------------------
+  O NAS
+-------------------------------------------------------------------------------*/
+.nas{
+  padding: 100vh 0; /*Tutaj zmnieniasz wyskoność*/
+}
+.nas .title{
+  font-size: 38px;
+  font-weight: 700;
+}
+.nas p{
+  padding-top: 10px;
+  text-align: justify;
+}
+
+/*-------------------------------------------------------------------------------
+  banner area
+-------------------------------------------------------------------------------*/
+.banner-area {
+	position: relative;
+}
+.banner-area-gradient {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	background: rgb(27,19,19);
+}
+.banner-text {
+	padding-top: 8%;
+	padding-bottom: 3%;
+}
+.banner-text h1 {
+	margin-top:10%;
+	color: #fff;
+	font-weight: 100;
+	font-size: 28px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+}
+.banner-text p {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+	letter-spacing:3px;
+	margin-bottom: 5%;
+	font-family: arial;
+}
+
+/*-------------------------------------------------------------------------------
+  Text
+-------------------------------------------------------------------------------*/

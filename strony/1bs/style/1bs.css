@@ -17,8 +17,8 @@ body {
 .wdiscord {
 	position: absolute;
 	right: 30px;
-	top: 300px;
-	opacity: 80%;
+	top: 125px;
+	opacity: 75%;
 }
 
 #dom {
@@ -52,7 +52,7 @@ body {
 }
 
 .navbar-nav li a {
-    color: #fff !important;
+    color: red !important;
     font-weight: 600;
 }
 
