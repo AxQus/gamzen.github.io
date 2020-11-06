@@ -12,7 +12,7 @@ body {
 }
 
 /*-------------------------------------------------------------------------------
-  Dom
+  DOM
 -------------------------------------------------------------------------------*/
 .wdiscord {
 	position: absolute;
@@ -21,10 +21,92 @@ body {
 	opacity: 75%;
 }
 
-#dom {
-
-	height: 175vh;
+.s-dom {
+	padding: 0vh 0; /*Tutaj zmnieniasz wyskoność*/
+	color: red;
 }
+
+.dom .title{
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.dom p{
+	padding-top: 10px;
+	text-align: justify;
+}
+/*-------------------------------------------------------------------------------
+  NAS
+-------------------------------------------------------------------------------*/
+.s-nas {
+	padding: 50vh 0; /*Tutaj zmnieniasz wyskoność*/
+	color: red;
+}
+
+.nas .title{
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.nas p{
+	padding-top: 10px;
+	text-align: justify;
+}
+
+/*-------------------------------------------------------------------------------
+  DOLACZ
+-------------------------------------------------------------------------------*/
+.s-dolacz {
+	padding: 50vh 0; /*Tutaj zmnieniasz wyskoność*/
+	color: red;
+}
+
+.dolacz .title{
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.dolacz p{
+	padding-top: 10px;
+	text-align: justify;
+}
+
+/*-------------------------------------------------------------------------------
+  MAPA
+-------------------------------------------------------------------------------*/
+.s-mapa {
+	padding: 50vh 0; /*Tutaj zmnieniasz wyskoność*/
+	color: red;
+}
+
+.mapa .title{
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.mapa p{
+	padding-top: 10px;
+	text-align: justify;
+}
+
+/*-------------------------------------------------------------------------------
+  KONTAKT
+-------------------------------------------------------------------------------*/
+.s-kontakt {
+	padding: 50vh 0; /*Tutaj zmnieniasz wyskoność*/
+	color: red;
+}
+
+.kontakt .title{
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.kontakt p{
+	padding-top: 10px;
+	text-align: justify;
+}
+
 /*-------------------------------------------------------------------------------
   Navbar
 -------------------------------------------------------------------------------*/
