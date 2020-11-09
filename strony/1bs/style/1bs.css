@@ -11,6 +11,7 @@ body {
 /*  background-image: linear-gradient(to right, #0f6299, #575a5a); */
 }
 
+
 /*-------------------------------------------------------------------------------
   DOM
 -------------------------------------------------------------------------------*/
@@ -23,88 +24,110 @@ body {
 
 .s-dom {
 	padding: 0vh 0; /*Tutaj zmnieniasz wyskoność*/
-	color: red;
+	color: rgb(168, 168, 168) /* rgb(155, 192, 54) */;
+	text-shadow: 0.15px 0.15px  black;
 }
 
 .dom .title{
-	font-size: 38px;
+	font-size: 80px;
 	font-weight: 700;
+	margin-left: 150px;
 }
 
 .dom p{
 	padding-top: 10px;
-	text-align: justify;
+	font-size: 20px;
+	margin-left: 100px;
+	font-weight: 900;
 }
+
+
 /*-------------------------------------------------------------------------------
   NAS
 -------------------------------------------------------------------------------*/
 .s-nas {
-	padding: 50vh 0; /*Tutaj zmnieniasz wyskoność*/
-	color: red;
+	padding: 25vh 0; /*Tutaj zmnieniasz wyskoność*/
+	color: rgb(168, 168, 168) /* rgb(72, 255, 0) */ /* rgb(155, 192, 54) */;
+	text-shadow: 0.15px 0.15px  black;
 }
 
 .nas .title{
-	font-size: 38px;
+	font-size: 80px;
 	font-weight: 700;
+	margin-left: 150px;
 }
 
 .nas p{
 	padding-top: 10px;
-	text-align: justify;
+	font-size: 20px;
+	margin-left: 100px;
+	font-weight: 900;
 }
 
 /*-------------------------------------------------------------------------------
   DOLACZ
 -------------------------------------------------------------------------------*/
 .s-dolacz {
-	padding: 50vh 0; /*Tutaj zmnieniasz wyskoność*/
-	color: red;
+	padding: -30vh 0; /*Tutaj zmnieniasz wyskoność*/
+	color: rgb(168, 168, 168) /* rgb(72, 255, 0) */ /* rgb(155, 192, 54) */;
+	text-shadow: 0.35px 0.35px  black;
 }
 
 .dolacz .title{
-	font-size: 38px;
+	font-size: 80px;
 	font-weight: 700;
+	margin-left: 150px;
 }
 
 .dolacz p{
 	padding-top: 10px;
-	text-align: justify;
+	font-size: 20px;
+	margin-left: 100px;
+	font-weight: 900;
 }
 
 /*-------------------------------------------------------------------------------
   MAPA
 -------------------------------------------------------------------------------*/
 .s-mapa {
-	padding: 50vh 0; /*Tutaj zmnieniasz wyskoność*/
-	color: red;
+	padding: 20vh 0; /*Tutaj zmnieniasz wyskoność*/
+	color: rgb(168, 168, 168) /* rgb(72, 255, 0) */ /* rgb(155, 192, 54) */;
+	text-shadow: 0.15px 0.15px  black;
 }
 
 .mapa .title{
-	font-size: 38px;
+	font-size: 80px;
 	font-weight: 700;
+	margin-left: 150px;
 }
 
 .mapa p{
 	padding-top: 10px;
-	text-align: justify;
+	font-size: 20px;
+	margin-left: 100px;
+	font-weight: 900;
 }
 
 /*-------------------------------------------------------------------------------
   KONTAKT
 -------------------------------------------------------------------------------*/
 .s-kontakt {
-	padding: 50vh 0; /*Tutaj zmnieniasz wyskoność*/
-	color: red;
+	padding: 20vh 0; /*Tutaj zmnieniasz wyskoność*/
+	color: rgb(168, 168, 168) /* rgb(72, 255, 0) */ /* rgb(155, 192, 54) */;
+	text-shadow: 0.15px 0.15px  black;
 }
 
 .kontakt .title{
-	font-size: 38px;
+	font-size: 80px;
 	font-weight: 700;
+	margin-left: 150px;
 }
 
 .kontakt p{
 	padding-top: 10px;
-	text-align: justify;
+	font-size: 20px;
+	margin-left: 100px;
+	font-weight: 900;
 }
 
 /*-------------------------------------------------------------------------------
